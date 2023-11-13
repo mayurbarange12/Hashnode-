@@ -16,10 +16,11 @@ Linux is a robust and open-source operating system kernel that serves as the fou
 
 * `ls` --&gt; The ls command is used to list files or directories in Linux and other Unix-based operating systems.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699883984632/21b0514b-0602-42ea-a7a4-1f8404ffa345.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699883984632/21b0514b-0602-42ea-a7a4-1f8404ffa345.png align="center")
+
+* `ls -l`\--&gt; Type the ls -l command to list the contents of the directory in a table format with columns including.
     
-    * `ls -l`\--&gt; Type the ls -l command to list the contents of the directory in a table format with columns including.
-        
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884138473/ae8ff022-c18b-4159-92b1-3f170b952c15.png align="center")
 
