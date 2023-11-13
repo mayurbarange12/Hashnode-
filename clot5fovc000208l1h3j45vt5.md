@@ -1,5 +1,5 @@
 ---
-title: "Essential Insights into the World of DevOps: A Beginner's Guide"
+title: "Day 1 - Essential Insights into the World of DevOps: A Beginner's Guide"
 datePublished: Fri Nov 10 2023 21:47:51 GMT+0000 (Coordinated Universal Time)
 cuid: clot5fovc000208l1h3j45vt5
 slug: essential-insights-into-the-world-of-devops-a-beginners-guide
