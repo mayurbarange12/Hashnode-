@@ -111,21 +111,11 @@ Linux is a robust and open-source operating system kernel that serves as the fou
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699901882267/6fcdd1c7-8738-46e6-8b7e-79045eccd0f1.png align="center")
 
-## Some Helpful Commands
+**man** \[command\_name\] --&gt; Man is the built-in manual for utilizing Linux commands.
 
-* man \[command\_name\] --&gt; Man is the built-in manual for utilizing Linux commands.
-    
-    If you don't know about Linux commands Linux will provide a manual to the user by using the command.
+* If you don't know about Linux commands Linux will provide a manual to the user by using the command.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699901970142/4424d640-a34c-4661-95df-9e696dbb7cdc.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699902019547/0ac2bc9b-11ba-4ea5-a06b-49f3c3af8be3.png align="center")
-
-**Sudo:** This command executes only that command with superuser privileges.
-
-![No alt text provided for this image](https://media.licdn.com/dms/image/D4D12AQF-KxTDXUC6OA/article-inline_image-shrink_1500_2232/0/1671202870928?e=1705536000&v=beta&t=HsOZxqvqxcvNoF4SGXf-AoNwxFWgOZ3ZaEnqrtU6_Qk align="left")
-
-Thank you for reading this Blog. Hope you learned something new today! If you found this blog helpful, please like, share, and follow me for more blog posts like this in the future.
-
-You can connect with me at: [https://www.linkedin.com/in/mayurbarange/](https://www.linkedin.com/in/mayurbarange/)
