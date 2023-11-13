@@ -16,22 +16,22 @@ Linux is a robust and open-source operating system kernel that serves as the fou
 
 * `ls` --&gt; The ls command is used to list files or directories in Linux and other Unix-based operating systems.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699858597632/678216fa-3329-4f2b-8fd3-eb56ae00ea3b.png align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699883984632/21b0514b-0602-42ea-a7a4-1f8404ffa345.png align="center")
     
     * `ls -l`\--&gt; Type the ls -l command to list the contents of the directory in a table format with columns including.
         
-        ```plaintext
-         - content permissions
-         - number of links to the content
-         - owner of the content
-         - group owner of the content
-         - size of the content in bytes
-         - last modified date / time of the content
-         - file or directory name
-        ```
-        
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699858836508/6bf9f8f5-741d-4cfc-bb7c-9c414d0fa624.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884138473/ae8ff022-c18b-4159-92b1-3f170b952c15.png align="center")
+
+```plaintext
+ - content permissions
+ - number of links to the content
+ - owner of the content
+ - group owner of the content
+ - size of the content in bytes
+ - last modified date / time of the content
+ - file or directory name
+```
 
 * `ls -a` --&gt; Type the ls -a command to list files or directories including hidden files or directories. In Linux, anything that begins with a . is considered a hidden file.
     
