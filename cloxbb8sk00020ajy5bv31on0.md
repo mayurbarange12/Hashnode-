@@ -12,40 +12,35 @@ tags: linux, devops, trainwithshubham, 90daysofdevopschallenge, tws
 
 **Mostly Used Commands in DevOps**:
 
-1. To view what's written in a file
-    
+1\. To view what's written in a file
 
 * `cat filename`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884467960/c7029a5c-6712-4a87-998f-10bd314f92cf.png align="center")
 
-1. To change the access permissions of files.
-    
+2\. To change the access permissions of files.
 
 * `chmod 777 foldername`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884636169/cf1fb11c-f11b-4260-bc69-e32f42e92b13.png align="center")
 
-1. To check which commands you have run till now.
-    
+3\. To check which commands you have run till now.
 
 * `history`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884743293/8101ee9f-0688-435f-beb3-6d17b8b5eb90.png align="center")
 
-1. To remove a directory/ Folder.
-    
+4\. To remove a directory/ Folder.
 
 * `rm -r foldername`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699884870831/52305f44-0c5a-4091-9691-2dcabf31008a.png align="center")
 
-1. To create a fruits.txt file and to view the content.
-    
+5\. To create a fruits.txt file and to view the content.
 
 * `vim fruits.txt`
     
@@ -54,8 +49,7 @@ tags: linux, devops, trainwithshubham, 90daysofdevopschallenge, tws
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699885329929/67b8d20e-9db9-4e9f-a40d-c2677af7d167.png align="center")
 
-1. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
-    
+6\. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
 
 * `vimdevops.txt`
     
@@ -64,28 +58,23 @@ tags: linux, devops, trainwithshubham, 90daysofdevopschallenge, tws
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699886923554/a69e02f8-a687-4022-8cf1-85c09eb4245d.png align="center")
 
-1. To Show only top three fruits from the file.
-    
+7\. To Show only top three fruits from the file.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699898349103/2582a847-633b-4123-866f-378d178c5870.png align="center")
 
-1. To Show only bottom three fruits from the file.
-    
+8\. To Show only bottom three fruits from the file.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699898457472/ab08a268-4ff6-4f41-8674-867118fd25c5.png align="center")
 
-1. To create another file Colors.txt and to view the content.
-    
+9\. To create another file Colors.txt and to view the content.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699898722863/d4b96b1a-0c3b-4723-8d95-49321dd4f258.png align="center")
 
-1. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
-    
+10\. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699899052229/ab7c9fd1-6b80-4b6b-9fe3-8024d5604a57.png align="center")
 
-1. To find the difference between fruits.txt and Colors.txt file.
-    
+11\. To find the difference between fruits.txt and Colors.txt file.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699899234620/afc4e61c-96f8-431a-8753-8c9cc30b21fe.png align="center")
 
