@@ -80,13 +80,11 @@ tags: linux, devops, trainwithshubham, 90daysofdevopschallenge, tws
 
 ## Some Important Commands
 
-1. **Sudo:** This command executes only that command with superuser privileges.
-    
+**1\. Sudo:** This command executes only that command with superuser privileges.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4D12AQF-KxTDXUC6OA/article-inline_image-shrink_1500_2232/0/1671202870928?e=1705536000&v=beta&t=HsOZxqvqxcvNoF4SGXf-AoNwxFWgOZ3ZaEnqrtU6_Qk align="left")
 
-1. **Cat:** This is used to concatenate and display files on the terminal. It can also be used to modify existing ones.
-    
+**2\. Cat:** This is used to concatenate and display files on the terminal. It can also be used to modify existing ones.
 
 ***cat -b:*** This adds line numbers to non-blank lines
 
@@ -98,8 +96,7 @@ tags: linux, devops, trainwithshubham, 90daysofdevopschallenge, tws
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4D12AQFX2ZTvZDGfUw/article-inline_image-shrink_1500_2232/0/1671203017878?e=1705536000&v=beta&t=NAp5TKVBCiqkG8LYUYPimd2w52Hqpz3PGWMvu5AcYQQ align="left")
 
-1. **Vim:** This is a text editor used in Linux. It stands for “Vi Improved”.
-    
+**3\. Vim:** This is a text editor used in Linux. It stands for “Vi Improved”.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQHFszYQzynT2g/article-inline_image-shrink_1500_2232/0/1671203035027?e=1705536000&v=beta&t=Et3VMLQTaoztXuyKqQVTxMlSkFBFZwV5HNIT7QlmGQc align="left")
 
@@ -112,15 +109,13 @@ Mostly used modes in VIM:
 * **Command mode:** In command mode, you can enter commands to perform various actions, such as saving the file or quitting vim. To enter command mode, press the ":" key.
     
 
-1. **Grep:** This command searches for a particular string/ word in a text file. This is similar to “Ctrl+F” but executed via a CLI.
-    
+**4\. Grep:** This command searches for a particular string/ word in a text file. This is similar to “Ctrl+F” but executed via a CLI.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQHxKcfcfhRX8w/article-inline_image-shrink_1500_2232/0/1671203095927?e=1705536000&v=beta&t=ozjVBC163minpqYtYURBZYsa_XGPUNv1h6PL6VAUUbw align="left")
 
 This would print all of the lines in “chxtan.txt” that contain the word “This".
 
-1. **Sort:** This command is used to sort the results of search either alphabetically or numerically. It also sorts files and directories.
-    
+**5\. Sort:** This command is used to sort the results of search either alphabetically or numerically. It also sorts files and directories.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQEgu6Paz3GTgg/article-inline_image-shrink_1500_2232/0/1671203130514?e=1705536000&v=beta&t=P73JFjhDKPi4Bdm0oxzOK8kOXG018iHDC-jd3bOGxow align="left")
 
@@ -130,34 +125,29 @@ This would print all of the lines in “chxtan.txt” that contain the word “T
 
 ***sort -n:*** the flag returns the results as per numerical order.
 
-1. **Tail:** This command prints the last N number of data of the given input. By default, it prints 10 lines.
-    
+**6\. Tail:** This command prints the last N number of data of the given input. By default, it prints 10 lines.
 
 We can specify the number of lines, that we want to display.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQGt--B3XF0wWw/article-inline_image-shrink_1500_2232/0/1671203289035?e=1705536000&v=beta&t=pVIE5nDnT18FfW7tKeCCWNKiaP2_hvEGYNA1oWgUQcY align="left")
 
-1. **Chmod:** This command is used to change the access permissions of files and directories.
-    
+**7\. Chmod:** This command is used to change the access permissions of files and directories.
 
 For example: Following “chmod” command will give the user permission to read, write and execute a file.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQGgkewPOw1J0A/article-inline_image-shrink_1500_2232/0/1671203318642?e=1705536000&v=beta&t=pO_rMwN0LBufAfrwDjIHuAdkOVmDw4Wgchdn-5W4c6I align="left")
 
-1. **Chown:** This command is used to change the file Owner or group.
-    
+**8\. Chown:** This command is used to change the file Owner or group.
 
 Here, below the ownership of “Chetan.txt” file got changed to root.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQEDmIFgXtDBKQ/article-inline_image-shrink_1500_2232/0/1671203381032?e=1705536000&v=beta&t=jW_7X_8tCv9L3n2RpbUntUOZEuTAdQ_b_bBRya3HSok align="left")
 
-1. **Ping –** This command will ping a host and check if it is responding.
-    
+**9\. Ping –** This command will ping a host and check if it is responding.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQEZ_lUIhwl8Ug/article-inline_image-shrink_1500_2232/0/1671203452523?e=1705536000&v=beta&t=5DdqOf_kekAO_Xp9G3FVEZ-D8JR3qOC9kqOcVMlcO2c align="left")
 
-1. **Lsof:** It is used to display a list of all the open files on a Linux system.
-    
+**10\. Lsof:** It is used to display a list of all the open files on a Linux system.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQE65C8RqbghBA/article-inline_image-shrink_1500_2232/0/1671203483627?e=1705536000&v=beta&t=d991T-xXDMed2Zx0Q7SM9K_vFGTeR1ITekikz8PELPU align="left")
 
