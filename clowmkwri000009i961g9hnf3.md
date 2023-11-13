@@ -1,5 +1,5 @@
 ---
-title: "Day 2 - Linux Fundamental"
+title: "Day 2 - Linux Fundamental (Part-1)"
 datePublished: Mon Nov 13 2023 08:11:06 GMT+0000 (Coordinated Universal Time)
 cuid: clowmkwri000009i961g9hnf3
 slug: day-2-linux-fundamental
