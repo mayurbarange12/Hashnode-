@@ -43,7 +43,7 @@ Linux is a robust and open-source operating system kernel that serves as the fou
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699859266142/2f93b1da-485a-43cb-b4b8-facb55112238.png align="center")
 
-* `ls -i` --&gt; List the files and directories with index numbers in orders.
+* `ls -i` --&gt; List the files and directories with index numbers in order.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699859628259/c15da720-3b32-4e59-84fd-97be46c3ccc1.png align="center")
