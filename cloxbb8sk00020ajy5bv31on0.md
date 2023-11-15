@@ -109,7 +109,7 @@ Mostly used modes in VIM:
 * **Command mode:** In command mode, you can enter commands to perform various actions, such as saving the file or quitting vim. To enter command mode, press the ":" key.
     
 
-**4\. Grep:** This command searches for a particular string/ word in a text file. This is similar to “Ctrl+F” but executed via a CLI.
+**4\. Grep:** (Global Regular Expression Print)This command searches for a particular string/ word in a text file. This is similar to “Ctrl+F” but executed via a CLI.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQHxKcfcfhRX8w/article-inline_image-shrink_1500_2232/0/1671203095927?e=1705536000&v=beta&t=ozjVBC163minpqYtYURBZYsa_XGPUNv1h6PL6VAUUbw align="left")
 
@@ -143,15 +143,15 @@ Here, below the ownership of “Chetan.txt” file got changed to root.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQEDmIFgXtDBKQ/article-inline_image-shrink_1500_2232/0/1671203381032?e=1705536000&v=beta&t=jW_7X_8tCv9L3n2RpbUntUOZEuTAdQ_b_bBRya3HSok align="left")
 
-**9\. Ping –** This command will ping a host and check if it is responding.
+**9\. Ping –**  (Packet InterNet Groper)This command will ping a host and check if it is responding.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQEZ_lUIhwl8Ug/article-inline_image-shrink_1500_2232/0/1671203452523?e=1705536000&v=beta&t=5DdqOf_kekAO_Xp9G3FVEZ-D8JR3qOC9kqOcVMlcO2c align="left")
 
-**10\. Lsof:** It is used to display a list of all the open files on a Linux system.
+**10\. Lsof:** (List Open Files)It is used to display a list of all the open files on a Linux system.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQE65C8RqbghBA/article-inline_image-shrink_1500_2232/0/1671203483627?e=1705536000&v=beta&t=d991T-xXDMed2Zx0Q7SM9K_vFGTeR1ITekikz8PELPU align="left")
 
-11\. **Ifconfig:** This is used to configure the kernel-resident network interfaces.
+11\. **Ifconfig:** (InterFace Configuration)This is used to configure the kernel-resident network interfaces.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQFggVBJPRLZtw/article-inline_image-shrink_1500_2232/0/1671203498025?e=1705536000&v=beta&t=-UxIwA2ZYEGrTMa4OKDI-QqUiIPVxUWERcx6jWjb-NU align="left")
 
@@ -167,7 +167,7 @@ It is often combined with other commands, such as sort, uniq, and grep, to perfo
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQE6JdWuD96fTg/article-inline_image-shrink_1500_2232/0/1671203536370?e=1705536000&v=beta&t=ZJ6n9oU_T4EValhYvSgA1jtQPGmtGRxl3fUBLrJchf8 align="left")
 
-14\. **Sed:** This is used to perform basic text transformations on an input file. It stands for "stream editor" and is a powerful tool for editing text files or streams in a Linux environment.
+14\. **Sed:** This is used to perform basic text transformations on an input file. It stands for "Stream Editor" and is a powerful tool for editing text files or streams in a Linux environment.
 
 ![No alt text provided for this image](https://media.licdn.com/dms/image/D4E12AQGo9fGYfS0BQg/article-inline_image-shrink_1500_2232/0/1671203751390?e=1705536000&v=beta&t=HXNN4KoqHVc_vNXjnUaVG49VPTyRpbAqeqsf81afJD4 align="left")
 
