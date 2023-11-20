@@ -404,13 +404,13 @@ echo "Backup Completed…"
     
     Select an editor.  To change later, run 'select-editor'.
     
-      1. /bin/nano        &lt;---- easiest
+    1\. /bin/nano        &lt;---- easiest
     
-      2. /usr/bin/vim.basic
+    2\. /usr/bin/vim.basic
     
-      3. /usr/bin/vim.tiny
+    3\. /usr/bin/vim.tiny
     
-      4. /bin/ed
+    4\. /bin/ed
     
 * **Enter 2**
     
@@ -453,7 +453,7 @@ Think of a scenario in which a particular user is not a member of group created 
 
 **How to set ACL Permission to User?**
 
-* **setfacl -m u:ubuntu:rwx testme.sh**
+* `setfacl -m u:ubuntu:rwx testme.sh`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498398978/8fe26a2f-d4a7-4802-8d54-65b844e6ddfd.png align="center")
