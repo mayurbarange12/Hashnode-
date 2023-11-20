@@ -100,7 +100,7 @@ StartFragmentIt displays the last few lines (by default, the last 10 lines) of a
     
 * **awk '/INFO/ {print $1,$2,$3,$4}' &lt;FileName.log&gt;  --&gt;** To search and print "INFO" keyword of column 1,2,3 & 4 from file.
     
-* **awk 'NR&gt;=20 && NR&lt;=40 && /INFO/ {print NR,$1,$2,$4}' &lt;FileName.log&gt;** 
+* **awk 'NR&gt;=20 && NR&lt;=40 && /INFO/ {print NR,$1,$2,$4}' &lt;FileName.log&gt;**
     
     **\--&gt;** To print from Row 20 to Row 40 of Keyword "INFO" with column 1,2 & 4 of the file.
     
@@ -121,7 +121,7 @@ Find can be used in a variety of conditions like you can find files by permissio
     
 * **find ~/ -name application.log    --&gt;** Find in Home directory named as application.log
     
-* **find ~/ -name \*.log**  \--&gt; Find in Home directory named as **all\_file.log** files.
+* **find ~/ -name \*.log**  --&gt; Find in Home directory named as **all\_file.log** files.
     
 * **find ~/ -user ubuntu --&gt;** Find in Home directory anything that has been created by the **user** - **ubuntu.**
     
@@ -142,7 +142,7 @@ Find can be used in a variety of conditions like you can find files by permissio
 
 \-rw-rw-r-- 1 ubuntu mayur 22929 Nov 16 07:31 application.log
 
-* **find ~/ -group mayur** \--&gt; Find in Home directory which **group name** as **mayur**.
+* **find ~/ -group mayur** --&gt; Find in Home directory which **group name** as **mayur**.
     
 
 /home/ubuntu/application.log
@@ -275,3 +275,144 @@ sudo apt-get install $1 -y  -->  "$1" variable will take input access.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700210436602/0db2f09a-cb30-454d-92e7-82f7625ed1d4.png align="center")
+
+**Backup:-**
+
+**How to take a backup with a timestamp in Linux?**
+
+* `mkdir scripts`
+    
+* `cd scripts`
+    
+* `pwd`
+    
+* `/home/ubuntu/scripts` --&gt; (Source Directory)
+    
+* `Vim backupData.sh` --&gt; (Please check below bash code)
+    
+* `mkdir backups`
+    
+* `cd backups/`
+    
+* `pwd`
+    
+* `/home/ubuntu/backups` --&gt; (Target Directory)
+    
+
+```bash
+#!/bin/bash
+src_dir=/home/ubuntu/scripts
+tgt_dir=/home/ubuntu/backups
+current_timestamp=$(date "+%Y-m-%d-%H-%M-%S")
+echo $current_timestamp
+```
+
+Y = Year
+
+m = month
+
+d = date
+
+H = Hour
+
+M = Minute
+
+S = Second
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700463481459/01752b5f-5170-49ce-a4b9-c10223b2ffc0.png align="center")
+
+**How can I take a backup in this file format --&gt; */home/ubuntu/backups/scripts backup-timestamp.tgz***
+
+* `vim backupData.sh`
+    
+
+```bash
+#!/bin/bash
+src_dir=/home/ubuntu/scripts
+tgt_dir=/home/ubuntu/backups
+current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+echo $current_timestamp
+final_file=$tgt_dir/scripts-backup-$current_timestamp.tgz
+echo $final_file
+```
+
+* ***Format*** *\--&gt;* ***/home/ubuntu/backups/scripts backup-timestamp.tgz***
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700464148689/5deded66-67df-491e-a274-6d7a93434dd6.png align="center")
+
+**How to take backup in Linux?**
+
+* `vim backupData.sh`
+    
+
+```bash
+#!/bin/bash
+src_dir=/home/ubuntu/scripts
+tgt_dir=/home/ubuntu/backups
+current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+echo "Taking Backup for Timestamp: " $current_timestamp
+final_file=$tgt_dir/scripts-backup-$current_timestamp.tgz
+tar czf $final_file -C $src_dir  .
+echo "Backup Completed…"
+```
+
+c = Compressed
+
+z = zip
+
+f = file
+
+\-C = Which file/folder wants to be Compressed
+
+tar = To compress file
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700464752017/5f471daf-3c98-49f9-ba9c-35c799b807dd.png align="center")
+
+**Functions:-**
+
+**How to use the function to take backup in Linux?**
+
+* `vim backupData.sh`
+    
+
+```bash
+#!/bin/bash
+function create_backup {
+	
+		src_dir=/home/ubuntu/scripts
+		tgt_dir=/home/ubuntu/backups
+	
+		current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+		
+		final_file=$tgt_dir/scripts-backup-$current_timestamp.tgz
+	
+		tar czf $final_file -C $src_dir  . 
+}
+echo "Starting Backup Process…"
+create_backup   
+echo "Backup Completed…"
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465210396/fac85284-80ef-4571-89a0-05725dafbcba.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465347235/7db71843-06e6-45f5-9b10-98a21dbab8dd.png align="center")
+
+**Crontab:-**
+
+* `crontab -e` Hit Enter
+    
+    Select an editor.  To change later, run 'select-editor'.
+    
+      1. /bin/nano        &lt;---- easiest
+    
+      2. /usr/bin/vim.basic
+    
+      3. /usr/bin/vim.tiny
+    
+      4. /bin/ed
+    
+* **Enter 2**
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465868819/e4cbad73-44fc-4501-9838-83e3a0a67f96.png align="center")
