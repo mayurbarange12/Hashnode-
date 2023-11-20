@@ -142,7 +142,7 @@ Find can be used in a variety of conditions like you can find files by permissio
 
 \-rw-rw-r-- 1 ubuntu mayur 22929 Nov 16 07:31 application.log
 
-* **find ~/ -group mayur** --&gt; Find in Home directory which **group name** as **mayur**.
+* **find ~/ -group mayur** --&gt; Find in a Home directory which **group name** as **mayur**.
     
 
 /home/ubuntu/application.log
@@ -253,7 +253,7 @@ echo "all arguments $@"   --> @ = all arguments will display.(test trainwithshub
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700209954459/ee820e8f-919d-4c57-ad6a-1397f534b7c2.png align="center")
 
-**How to install any tool(**[**docker.io**](http://docker.io)**/nginx) through shell script** :-
+**How to install any tool(docker/nginx) through shell script** :-
 
 * `vim installer.sh`
     
@@ -277,6 +277,8 @@ sudo apt-get install $1 -y  -->  "$1" variable will take input access.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700210436602/0db2f09a-cb30-454d-92e7-82f7625ed1d4.png align="center")
 
 **Backup:-**
+
+Backup in Linux involves duplicating and storing data from files, directories, or systems onto separate storage media or locations to safeguard against data loss, system failures, or unforeseen events, ensuring data preservation and recovery capability.
 
 **How to take a backup with a timestamp in Linux?**
 
@@ -371,6 +373,8 @@ tar = To compress file
 
 **Functions:-**
 
+In Linux, a function is a named block of code within a script or shell session that performs a specific task or set of tasks, enhancing script modularity and reusability by allowing repeated execution without rewriting the code.
+
 **How to use the function to take backup in Linux?**
 
 * `vim backupData.sh`
@@ -379,15 +383,11 @@ tar = To compress file
 ```bash
 #!/bin/bash
 function create_backup {
-	
-		src_dir=/home/ubuntu/scripts
+	    src_dir=/home/ubuntu/scripts
 		tgt_dir=/home/ubuntu/backups
-	
-		current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
-		
+	    current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
 		final_file=$tgt_dir/scripts-backup-$current_timestamp.tgz
-	
-		tar czf $final_file -C $src_dir  . 
+	    tar czf $final_file -C $src_dir . 
 }
 echo "Starting Backup Process…"
 create_backup   
@@ -398,7 +398,7 @@ echo "Backup Completed…"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465347235/7db71843-06e6-45f5-9b10-98a21dbab8dd.png align="center")
 
-**Crontab:-**
+**Crontab:-** "Crontab" is a command in Linux used to schedule tasks or commands to run periodically at fixed intervals or specific times, enabling automated execution of repetitive actions without user intervention.
 
 * `crontab -e` Hit Enter
     
@@ -416,3 +416,44 @@ echo "Backup Completed…"
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465868819/e4cbad73-44fc-4501-9838-83e3a0a67f96.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700496632516/22b1cb83-e510-4cca-a09b-8f7c5633f6a1.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700496589243/a57a892b-f130-4afa-8dcf-f5ff7195d352.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700496753358/6bc59419-060d-4dd0-a467-a8733fb334ab.png align="center")
+
+**ACL :- (Access Control List)**
+
+* Access Control List(ACL) provides an additional, more flexible permission mechanism for file system.
+    
+* Access control list is a service which is used for providing special permission to specific users and groups to particular directories and file.
+    
+
+**Use of ACL -**
+
+Think of a scenario in which a particular user is not a member of group created by you but still you want to give some read or write access, how you can do it without making user a member of group, here comes in picture Access Control Lists, ACL helps us to do this trick.
+
+**How to check ACL Permission?**
+
+* `vim testme.sh`
+    
+
+```bash
+	#!/bin/bash
+	echo "test"
+```
+
+* `getfacl testme.sh`
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498163622/14568aa2-5dfd-4521-9572-77916d943a33.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498234682/97694095-0e02-4c9f-84bc-40585d5b3794.png align="center")
+
+**How to set ACL Permission to User?**
+
+* **setfacl -m u:ubuntu:rwx testme.sh**
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498398978/8fe26a2f-d4a7-4802-8d54-65b844e6ddfd.png align="center")
