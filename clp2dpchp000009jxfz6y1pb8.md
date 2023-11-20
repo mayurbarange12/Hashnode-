@@ -132,20 +132,18 @@ Find can be used in a variety of conditions like you can find files by permissio
     
 * **ls -l application.log**
     
-
-\-rw-rw-r-- 1 ubuntu ubuntu 22929 Nov 16 07:31 application.log
-
+    \-rw-rw-r-- 1 ubuntu ubuntu 22929 Nov 16 07:31 application.log
+    
 * **sudo chgrp mayur application.log --&gt;** I have change group from **ubuntu** to **mayur** of application.log file
     
 * **ls -l application.log**
     
-
-\-rw-rw-r-- 1 ubuntu mayur 22929 Nov 16 07:31 application.log
-
+    \-rw-rw-r-- 1 ubuntu mayur 22929 Nov 16 07:31 application.log
+    
 * **find ~/ -group mayur** --&gt; Find in a Home directory which **group name** as **mayur**.
     
-
-/home/ubuntu/application.log
+    /home/ubuntu/application.log
+    
 
 **Shell Scripting :-**
 
@@ -398,7 +396,9 @@ echo "Backup Completed…"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700465347235/7db71843-06e6-45f5-9b10-98a21dbab8dd.png align="center")
 
-**Crontab:-** "Crontab" is a command in Linux used to schedule tasks or commands to run periodically at fixed intervals or specific times, enabling automated execution of repetitive actions without user intervention.
+**Crontab:-**
+
+"Crontab" is a command in Linux used to schedule tasks or commands to run periodically at fixed intervals or specific times, enabling automated execution of repetitive actions without user intervention.
 
 * `crontab -e` Hit Enter
     
