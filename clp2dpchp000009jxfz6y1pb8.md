@@ -321,7 +321,7 @@ M = Minute
 
 S = Second
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700463481459/01752b5f-5170-49ce-a4b9-c10223b2ffc0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498709889/07c33488-50fa-4609-b072-6e0a15c06659.png align="center")
 
 **How can I take a backup in this file format --&gt; */home/ubuntu/backups/scripts backup-timestamp.tgz***
 
@@ -341,7 +341,7 @@ echo $final_file
 * ***Format*** *\--&gt;* ***/home/ubuntu/backups/scripts backup-timestamp.tgz***
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700464148689/5deded66-67df-491e-a274-6d7a93434dd6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700498829273/1b439a28-86d6-44fe-93aa-a9963b711f65.png align="center")
 
 **How to take backup in Linux?**
 
