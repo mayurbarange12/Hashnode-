@@ -56,7 +56,7 @@ Overall, the decentralized nature of a DVCS allows for greater collaboration, fl
 
 ## Exercises:
 
-1.Ceate a new repository on GitHub and clone it to your local machine:
+1\. Create a new repository on GitHub and clone it to your local machine:
 
 `git clone <Repository-Url>`
 
@@ -69,7 +69,7 @@ Create a new folder in your local machine and right-click into that folder, open
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700762473633/796fbb90-cfa1-40ba-b7b8-e9e4e21033e8.png align="center")
 
-2.Mke some changes to a file in the repository and commit them to the repository using Git:
+2\. Make some changes to a file in the repository and commit them to the repository using Git:
 
 `git add <Filename>` `.(dot) = All`
 
@@ -77,7 +77,7 @@ Create a new folder in your local machine and right-click into that folder, open
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700762900691/613c1265-b18c-4a19-87eb-c2cf42601878.png align="center")
 
-3.Push the changes back to the repository on GitHub:
+3\. Push the changes back to the repository on GitHub:
 
 `git push <Repository-Url>`
 
