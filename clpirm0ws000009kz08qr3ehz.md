@@ -83,8 +83,8 @@ The difference between the "Main" branch and the "Master" branch primarily lies 
 
 * **Git:** Software for version control managed locally.
     
-
-**GitHub:** A web-based platform providing remote hosting and collaborative features for Git repositories.
+* **GitHub:** A web-based platform providing remote hosting and collaborative features for Git repositories.
+    
 
 ### **How do you create a new repository on GitHub?**
 
@@ -244,13 +244,13 @@ Create a new Branch named as "staging" branch inside repository "devops-batch-5"
     
 * Select staging branch -&gt; Add file -&gt; Create new file -&gt; FileName = staging-feature.txt -&gt; Content = This is a staging feature -&gt; Commit Changes.
     
-* `git pull origin master`  
+* `git pull origin master`
     
-* `git fetch`  
+* `git fetch`
     
 * `git branch`
     
-* `git checkout staging` 
+* `git checkout staging`
     
 * `git branch`
     
