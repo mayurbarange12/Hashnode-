@@ -60,11 +60,11 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
     \[Changes the group ownership of a specified file or directory to the specified group name using superuser privileges.\]
     
 
-## **SSH/SCP :-**
+## **<mark>SSH/SCP</mark> :-**
 
 **SSH - (Secured Shell)**
 
- SSH (Secure Shell) in Linux is a cryptographic network protocol that enables secure and encrypted communication between two devices over an insecure network, ensuring the confidentiality and integrity of data exchanged. It provides a secure avenue for remote access, allowing users to log into a remote machine securely, execute commands, transfer files, and tunnel other network services securely over an encrypted channel.
+SSH (Secure Shell) in Linux is a cryptographic network protocol that enables secure and encrypted communication between two devices over an insecure network, ensuring the confidentiality and integrity of data exchanged. It provides a secure avenue for remote access, allowing users to log into a remote machine securely, execute commands, transfer files, and tunnel other network services securely over an encrypted channel.
 
 * Create an EC2 instance and connect through **SSH Client**.
     
@@ -77,9 +77,9 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
 * If you want log-out type the "**exit**" command.
     
 
-**SCP - (Secured Copy Protocol)**
+**<mark>SCP - (Secured Copy Protocol)</mark>**
 
- SCP, or Secure Copy Protocol, is a command-line tool in Linux used for securely transferring files between a local and remote host or between two remote hosts over a Secure Shell (SSH) connection. It provides encryption and authentication, ensuring secure file transfers. SCP operates similarly to the cp command but adds encryption capabilities, enabling users to securely copy files and directories between systems. SCP is widely used in Linux for its simplicity and secure file transfer capabilities over SSH.
+SCP, or Secure Copy Protocol, is a command-line tool in Linux used for securely transferring files between a local and remote host or between two remote hosts over a Secure Shell (SSH) connection. It provides encryption and authentication, ensuring secure file transfers. SCP operates similarly to the cp command but adds encryption capabilities, enabling users to securely copy files and directories between systems. SCP is widely used in Linux for its simplicity and secure file transfer capabilities over SSH.
 
 * Connect an EC2 instance through a Web Browser.
     
@@ -92,4 +92,4 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
 * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700037690802/6ad2a1ef-fcfa-4baf-b3a8-d4dd0a01767b.png align="center")
     
 
-**Note**:- All commands will be run in the Local System because the Private-key is in the Local System.
+**<mark>Note</mark>**:- All commands will be run in the Local System because the Private-key is in the Local System.
