@@ -36,7 +36,7 @@ In Kubernetes, there are primarily two types of namespaces:
 * **Custom namespaces**: Users can create their namespaces to organize and isolate resources for different projects, teams, or purposes within the cluster, improving security and resource management.
     
 
-## **<mark>Pods</mark>:-**
+# **<mark>Pods</mark>:-**
 
 A pod in Kubernetes is the smallest deployable unit that consists of one or more containers sharing storage, networking, and an IP address, representing a single instance of an application or a group of tightly coupled applications.
 
