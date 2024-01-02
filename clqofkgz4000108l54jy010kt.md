@@ -44,7 +44,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
     
 * `sudo systemctl enable docker`  --&gt; If the system will restart then automatically docker will be start.
     
-*  `sudo usermod -aG docker $USER && newgrp docker` --&gt;Add current user to docker group.
+* `sudo usermod -aG docker $USER && newgrp docker` --&gt;Add current user to docker group.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703718795339/ac25f3d6-e3b2-42c3-bdf2-c118c6f4fd05.png align="center")
@@ -90,7 +90,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 * `docker ps`
     
-* `minikube ssh`  \--&gt; Allows you to SSH into the Minikube VM, giving you direct access to the Minikube's host environment for advanced troubleshooting or configuration purposes.
+* `minikube ssh`  --&gt; Allows you to SSH into the Minikube VM, giving you direct access to the Minikube's host environment for advanced troubleshooting or configuration purposes.
     
 * `docker ps`
     
@@ -99,7 +99,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 * exit
     
-* `kubectl get nodes`  \--&gt; Retrieves a list of all nodes in the Kubernetes cluster, displaying their status and other relevant information.
+* `kubectl get nodes`  --&gt; Retrieves a list of all nodes in the Kubernetes cluster, displaying their status and other relevant information.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719155438/2eea45b7-3eaf-4fc0-8341-50fe634e838a.png align="center")
@@ -157,7 +157,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719619892/2c28a1ce-5b87-40f0-b7c2-8267a4b40a96.png align="center")
 
-* `apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y`   \--&gt; Installing kubeadm, kubectl and kubelet
+* `apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y`   --&gt; Installing kubeadm, kubectl and kubelet
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719648775/0ff80b00-1b54-4534-a3ed-0201e8fe9bc9.png align="center")
@@ -178,7 +178,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 * `systemctl enable docker`
     
 
- **Adding GPG Keys:-**
+**Adding GPG Keys:-**
 
 * `curl -fsSL "`[`https://packages.cloud.google.com/apt/doc/apt-key.gpg`](https://packages.cloud.google.com/apt/doc/apt-key.gpg)`" | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/kubernetes-archive-keyring.gpg`
     
@@ -192,15 +192,14 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719796357/a0df87b8-bcec-4e18-b09a-fe16d4df8478.png align="center")
 
-* `apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y`   \--&gt; Installing kubeadm, kubectl and kubelet
+* `apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y`   --&gt; Installing kubeadm, kubectl and kubelet
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719836882/2a726fc7-149f-41ab-87d4-3f0c579c4cdc.png align="center")
 
 **<mark>Master node</mark>:-**
 
-1. **Initialize the Kubernetes master node:-**
-    
+**1\. Initialize the Kubernetes master node:-**
 
 * `kubeadm init`
     
@@ -209,8 +208,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 **After successfully running, your Kubernetes control plane will be initialized successfully.**
 
-1. **Set up local kubeconfig (both for root user and normal user):-**
-    
+**2\. Set up local kubeconfig (both for root user and normal user):-**
 
 **To start using your cluster, you need to run the following as a regular user:**
 
@@ -218,7 +216,6 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 * `mkdir -p $HOME/.kube`
     
-
 * `sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config`
     
 * `sudo chown $(id -u):$(id -g) $HOME/.kube/config`
@@ -231,8 +228,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720159412/3da77b89-e3df-4ff0-aaa7-7ba3f08a6a19.png align="center")
 
-1. **Apply Weave Network:-**
-    
+**3\. Apply Weave Network:-**
 
 * `kubectl apply -f` [`https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml`](https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml) --&gt; Weave Network will establish.
     
@@ -241,24 +237,23 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 **<mark>Worker Node</mark>:-**
 
-1. **Run the following commands on the worker node:-**
-    
+**1\. Run the following commands on the worker node:-**
 
 * `sudo su`
     
-* `sudo kubeadm reset pre-flight checks`  \--&gt; The command "sudo kubeadm reset" performs pre-flight checks to ensure the system is ready for the cluster reset, validating prerequisites and configurations before executing the reset operation.
+* `sudo kubeadm reset pre-flight checks`  --&gt; The command "sudo kubeadm reset" performs pre-flight checks to ensure the system is ready for the cluster reset, validating prerequisites and configurations before executing the reset operation.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720366572/c0bde5cd-da9f-4ea4-a0b3-59ec401137d4.png align="center")
 
 **<mark>Master Node</mark>:-**
 
-* **kubectl get nodes** \--&gt; Retrieves a list of all nodes in the Kubernetes cluster, displaying their status and other relevant information.
+* **kubectl get nodes** --&gt; Retrieves a list of all nodes in the Kubernetes cluster, displaying their status and other relevant information.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720417969/bdd2dc21-f793-4d99-ba0a-185aefc8c035.png align="center")
 
-**Generate a token for worker nodes to join:-**
+**4\. Generate a token for worker nodes to join:-**
 
 * `sudo kubeadm token create --print-join-command` --&gt; The command generates a token used for nodes to join the Kubernetes cluster and prints the associated join command.
     
@@ -276,12 +271,8 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
     
 * `kubeadm join 172.31.53.171:6443 --token 5xsky4.pgu1e1sbvno269av     --discovery-token-ca-cert-hash sha256:846234ead25499bf807dbf1e1270a59ef220a0d023e311f9195a903de386a5f8`
     
-* `kubeadm join 172.31.53.171:6443 --token 5xsky4.pgu1e1sbvno269av     --discovery-token-ca-cert-hash sha256:846234ead25499bf807dbf1e1270a59ef220a0d023e311f9195a903de386a5f8`
-    
     `--v=5`
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720686056/10c303f1-4056-4bd0-822c-3ea7c9b7f60e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720689945/6f227e86-bcdb-411d-81ba-eb08d0e7f7e3.png align="center")
 
@@ -296,7 +287,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 A pod in Kubernetes is the smallest deployable unit that consists of one or more containers sharing storage, networking, and an IP address, representing a single instance of an application or a group of tightly coupled applications.
 
-* `kubectl get pods` \--&gt; Retrieves a list of pods running in the current namespace, displaying their status, names, and other relevant information.
+* `kubectl get pods` --&gt; Retrieves a list of pods running in the current namespace, displaying their status, names, and other relevant information.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720769678/9be0aa21-2fe3-4599-9b79-ac2c7f426da9.png align="center")
