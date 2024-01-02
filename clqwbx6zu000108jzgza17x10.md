@@ -3,7 +3,7 @@ title: "Day 24 - Kubernetes Configuration Manifest File Using Deployment"
 datePublished: Tue Jan 02 2024 12:32:08 GMT+0000 (Coordinated Universal Time)
 cuid: clqwbx6zu000108jzgza17x10
 slug: day-24-kubernetes-configuration-manifest-file-using-deployment
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704196782794/026243db-4986-4867-a80f-1c80612242ee.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704200570032/1052822d-a4ff-4e07-aa79-b9589bf42250.png
 tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopscommunity-shubhamlondhe-automation-kubernetes-autoscaling-autohealing-microservices-kubernetescluster-kubelet-kubectl-orchestration-minikube-kubeadm-pod-kubernetesdeployment-kubernetespods-kubernetesservice-namespace-labels-selectors
 
 ---
