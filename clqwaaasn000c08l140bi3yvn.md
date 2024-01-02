@@ -74,19 +74,19 @@ spec:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704193556826/78875c8d-2aa0-4da7-8a3f-572570876f2a.png align="center")
 
-* `kubectl apply -f pod.yml`   **--&gt;** \[-f = filename\]
+* `kubectl apply -f pod.yml`   **\--&gt;** \[-f = filename\]
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704193604140/73d36226-5041-40f6-8634-055622e39730.png align="center")
 
-* `kubectl create -f pod.yml`  **--&gt;** Creates Kubernetes resources specified in the "pod.yml" file within the cluster.
+* `kubectl create -f pod.yml`  **\--&gt;** Creates Kubernetes resources specified in the "pod.yml" file within the cluster.
     
 * `kubectl apply -f pod.yml` **\--&gt;** Applies the configurations defined in "pod.yml" to create or update Kubernetes resources within the cluster based on the file specifications.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704193806042/0d4a6462-8b96-44a4-9c3c-c8df9b657c75.png align="center")
 
-* `kubectl get pods`  **--&gt;** Retrieves and lists the pods currently running in the kubernetes cluster.
+* `kubectl get pods`  **\--&gt;** Retrieves and lists the pods currently running in the kubernetes cluster.
     
 * `kubectl get pods -n todo-app` **\--&gt;** This command fetches and displays pods within the "**todo-app**" namespace in Kubernetes.
     
