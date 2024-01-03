@@ -20,6 +20,8 @@ In Kubernetes, various kinds of manifest files are used to define different type
     
 * **Service:** Enables networking and load balancing to pods, providing a consistent way to access them.
     
+* **ConfigMap and Secret:** Store configuration data or sensitive information separately from the pod's definition.
+    
 * **Ingress:** Specifies rules for routing external HTTP(S) traffic to services within the cluster.
     
 * **PersistentVolume and PersistentVolumeClaim:** Manage storage and its allocation to pods.
