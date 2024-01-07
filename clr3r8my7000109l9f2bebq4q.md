@@ -1,8 +1,8 @@
 ---
-title: "Day 27 - Kubernetes Configuration Manifest File Using Persistent Volume & Persistent Volume Claim"
+title: "Day 27 - Kubernetes Configuration Manifest File Using PersistentVolume & PersistentVolumeClaim"
 datePublished: Sun Jan 07 2024 17:15:20 GMT+0000 (Coordinated Universal Time)
 cuid: clr3r8my7000109l9f2bebq4q
-slug: day-27-kubernetes-configuration-manifest-file-using-persistent-volume-persistent-volume-claim
+slug: day-27-kubernetes-configuration-manifest-file-using-persistentvolume-persistentvolumeclaim
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704647678541/57843392-c6c3-47e0-ab5b-debb1f32ece8.png
 tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopscommunity-shubhamlondhe-automation-kubernetes-autoscaling-autohealing-microservices-kubernetescluster-kubelet-kubectl-orchestration-minikube-kubeadm-pod-kubernetesdeployment-kubernetespods-kubernetesservice-namespace-labels-selectors-nodeport-clusterip-loadbalancer-autoscaling-autohealing-configmaps-secrets-persistentvolume-persistentvolumeclaim
 
