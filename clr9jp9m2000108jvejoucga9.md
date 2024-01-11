@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Amazon Web Services"
+title: "Day 29 - Introduction to Amazon Web Services"
 datePublished: Thu Jan 11 2024 18:30:56 GMT+0000 (Coordinated Universal Time)
 cuid: clr9jp9m2000108jvejoucga9
 slug: introduction-to-amazon-web-services
