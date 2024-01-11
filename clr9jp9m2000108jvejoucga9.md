@@ -1,8 +1,8 @@
 ---
-title: "Day 29 - Introduction to Amazon Web Services"
+title: "Introduction to Amazon Web Services"
 datePublished: Thu Jan 11 2024 18:30:56 GMT+0000 (Coordinated Universal Time)
 cuid: clr9jp9m2000108jvejoucga9
-slug: day-29-introduction-to-amazon-web-services
+slug: introduction-to-amazon-web-services
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704992359861/725202fc-b186-4d18-9468-d2b97a9ae7a2.jpeg
 tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswithtws-7daysofaws
 
