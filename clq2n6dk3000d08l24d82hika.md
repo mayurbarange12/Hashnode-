@@ -50,7 +50,7 @@ CMD ["node","app.js"]
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702400122856/d0c2401f-a0cf-4c4a-aaa5-f078b63e17e1.png align="center")
 
-## **<mark>Docker Push</mark>**:-
+## **<mark>Docker Push</mark>**
 
 "Docker push" is a command used to upload Docker images from your local machine to a container registry, making them accessible for deployment on other systems or by other users.
 
@@ -81,7 +81,7 @@ CMD ["node","app.js"]
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702400699552/d27f49b3-ba0c-42bb-804d-e32064554d2c.png align="center")
 
-## **<mark>Docker Pull/Run</mark>:-**
+## **<mark>Docker Pull/Run</mark>**
 
 "Docker pull" is a command used to download Docker images from a registry(Docker Hub) to the local machine, making them available for creating containers.
 
@@ -90,11 +90,11 @@ CMD ["node","app.js"]
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702400966850/87a3068c-398d-4aa0-a7b6-a44f77173e50.png align="center")
 
-## **<mark>Docker Volume</mark>:-**
+## **<mark>Docker Volume</mark>**
 
 "Docker Volume" is a feature used to persist and manage data separately from containers, ensuring data durability and enabling sharing of data between containers or with the host machine.
 
-### **<mark>Project:- django-todo-cicd</mark>**
+### **<mark>Project: django-todo-cicd</mark>**
 
 * `cd projects/`
     
@@ -105,7 +105,7 @@ CMD ["node","app.js"]
 * `docker build -t django-todo-app .`
     
 
-### **<mark>Intermediate Layer</mark>:-**
+### **<mark>Intermediate Layer</mark>**
 
 "Intermediate layers" in a Dockerfile represent individual steps or instructions, forming the incremental stages used during image creation before being combined into the final image layer.
 
@@ -179,7 +179,7 @@ CMD ["node","app.js"]
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702402941846/168990b2-4d14-41f9-9f23-d18847c35348.png align="center")
 
-* `docker run -d -p 8000:8000 --mount source=django-todo-volume,target=/data django-todo-app:latest` **--&gt;** This command runs a Docker container (-d) based on the image "django-todo-app:latest," connecting the container's "/data" directory to the previously created volume "django-todo-volume," and maps the container's port 8000 to the host's port 8000 (-p).
+* `docker run -d -p 8000:8000 --mount source=django-todo-volume,target=/data django-todo-app:latest` **\--&gt;** This command runs a Docker container (-d) based on the image "django-todo-app:latest," connecting the container's "/data" directory to the previously created volume "django-todo-volume," and maps the container's port 8000 to the host's port 8000 (-p).
     
 * `cd ..`
     
