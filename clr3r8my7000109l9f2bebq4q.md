@@ -8,15 +8,15 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-## **PersistentVolume (PV):**
+## **PersistentVolume (PV)**
 
 In Kubernetes, a PersistentVolume is a storage abstraction that represents a piece of storage in the cluster, such as a physical disk, network storage, or cloud storage. It exists independently of any Pod and can be dynamically provisioned or statically defined by a cluster administrator. PVs have lifecycle independent of Pods and are provisioned using storage classes.
 
-## **PersistentVolumeClaim (PVC):**
+## **PersistentVolumeClaim (PVC)**
 
 A PersistentVolumeClaim is a request made by a user (in the form of a Kubernetes object) for storage resources from a PersistentVolume. It acts as a request for storage by a user or a Pod. When a user creates a PVC, Kubernetes finds an appropriate PV that satisfies the PVC requirements based on capacity, access mode, and other parameters defined in the claim.
 
- In essence, PersistentVolumes represent actual storage resources in the cluster, while PersistentVolumeClaims act as a way for applications (Pods) to request and use these storage resources without having to know the details of the underlying storage infrastructure. PVs and PVCs help decouple storage provisioning from Pod lifecycle management in Kubernetes.
+In essence, PersistentVolumes represent actual storage resources in the cluster, while PersistentVolumeClaims act as a way for applications (Pods) to request and use these storage resources without having to know the details of the underlying storage infrastructure. PVs and PVCs help decouple storage provisioning from Pod lifecycle management in Kubernetes.
 
 * **<mark>Stateless</mark>:-** In Stateless app no need to attach any storage.
     
@@ -30,7 +30,7 @@ A PersistentVolumeClaim is a request made by a user (in the form of a Kubernetes
 * So, even if no application or program is using this space at the moment, it's ready and waiting—**persistent**, just like a storage unit that's always available even if no one's currently renting it. When an application needs some storage, it can ask for a chunk of this persistent storage using what's called a "**PersistentVolumeClaim**" and Kubernetes will provide it with a piece of this persistent storage it requested.
     
 
-### **We are creating PersistentVolume.yml file:-**
+### **We are creating PersistentVolume.yml file**
 
 **<mark>Worker Node</mark>:-**
 
@@ -78,7 +78,7 @@ spec:
     
 * `kubectl apply -f persistentVolume.yml`
     
-* `kubectl get pv -n mysql`   **--&gt; RWO(ReadWriteOnce)**
+* `kubectl get pv -n mysql`   **\--&gt; RWO(ReadWriteOnce)**
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704646887160/9b41b7cf-fac5-4bc7-8635-2f3355633038.png align="center")
@@ -94,7 +94,7 @@ spec:
 * **<mark>External</mark> -** Assumes an external entity manages the volume's lifecycle, reconnecting it when needed in the cluster.
     
 
-### **We are creating PersistentVolumeClaim.yml file:-**
+### **We are creating PersistentVolumeClaim.yml file**
 
 **<mark>Master Node</mark>:-**
 
@@ -122,12 +122,12 @@ spec:
     
 * `kubectl apply -f persistentVolumeClaim.yml`
     
-* `kubectl get pvc -n mysql`  \--&gt; Now persistentVolumeClaim is Bounded with persistentVolume.
+* `kubectl get pvc -n mysql`  --&gt; Now persistentVolumeClaim is Bounded with persistentVolume.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704647137830/44ae852e-9a9e-40c9-9627-f6e74b39615a.png align="center")
 
-### **We are attaching PersistentVolume with the Deployment file:-**
+### **We are attaching PersistentVolume with the Deployment file**
 
 **<mark>Master Node</mark>:-**
 
@@ -204,7 +204,7 @@ spec:
 
 **<mark>Worker Node</mark>:-**
 
-* `cd volume/`    
+* `cd volume/`
     
 * `ls`
     
