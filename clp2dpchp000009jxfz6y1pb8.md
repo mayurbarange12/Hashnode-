@@ -251,7 +251,7 @@ echo "all arguments $@"   --> @ = all arguments will display.(test trainwithshub
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700209954459/ee820e8f-919d-4c57-ad6a-1397f534b7c2.png align="center")
 
-### **How to install any tool(docker/nginx) through shell script** :-
+### **How to install any tool(docker/nginx) through shell script**
 
 * `vim installer.sh`
     
