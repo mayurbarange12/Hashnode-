@@ -8,7 +8,7 @@ tags: docker, docker-compose, dockerhub, 90daysofdevops, shubhamlondhe, trainwit
 
 ---
 
-## **<mark>Docker Compose</mark>:-**
+## **<mark>Docker Compose</mark>**
 
 "Docker Compose" is a tool that simplifies the management of multi-container Docker applications by defining and running them with a single YAML file configuration.
 
@@ -36,11 +36,11 @@ tags: docker, docker-compose, dockerhub, 90daysofdevops, shubhamlondhe, trainwit
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702566422028/96575167-5116-4783-adf0-6d5d215e6d1d.png align="center")
 
-## **<mark>Multi-Stage-Docker-Build</mark>:-**
+## **<mark>Multi-Stage-Docker-Build</mark>**
 
 "Multi-Stage Docker Build" is a technique allowing for efficient Docker image creation by using multiple build stages in a single Dockerfile, segregating build environments to optimize final image size and performance.
 
-### **<mark>Project</mark>:- <mark>python-multistage-docker</mark>** (using multi-stage-docker-build)
+### **<mark>Project</mark>: <mark>python-multistage-docker</mark>** (using multi-stage-docker-build)
 
 * `git clone`[`https://github.com/LondheShubham153/python-multistage-docker.git`](https://github.com/LondheShubham153/python-multistage-docker.git)
     
