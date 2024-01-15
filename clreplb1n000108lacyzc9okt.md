@@ -8,11 +8,11 @@ tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswi
 
 ---
 
-## **Elastic Compute Cloud (EC2):-**
+## **Elastic Compute Cloud (EC2)**
 
 Amazon Elastic Compute Cloud (EC2) is a foundational and highly scalable cloud computing service offered by Amazon Web Services (AWS). EC2 allows users to rent virtual servers, known as instances, in the cloud, providing on-demand compute capacity for a wide range of applications. Users can choose from a variety of pre-configured instances or customize them to meet specific requirements. EC2 instances cater to diverse workloads, from hosting websites and applications to running complex computations. With features such as scalability, flexibility, and pay-as-you-go pricing, EC2 empowers businesses and individuals to efficiently deploy and manage virtual servers in the AWS cloud environment, playing a pivotal role in modern cloud computing infrastructure. ☁️💻🚀
 
-### How to Create, Manage, Connect to EC2 Instances:-
+### How to Create, Manage, Connect to EC2 Instances
 
 Creating, managing, and connecting to EC2 instances in AWS involves several steps. Here's a guide to help you through the process:
 
@@ -123,7 +123,7 @@ ssh -i path/to/your/key.pem ec2-user@instance-public-ip
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705309981318/c50ce1a1-84fa-4713-b0e3-3e3f9bc4aacf.png align="center")
 
-### **Will create simple webpage using nginx on EC2:-**
+### **Will create simple webpage using nginx on EC2**
 
 * `sudo apt-get update`
     
