@@ -122,3 +122,38 @@ ssh -i path/to/your/key.pem ec2-user@instance-public-ip
 **These are instance states available in EC2:**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705309981318/c50ce1a1-84fa-4713-b0e3-3e3f9bc4aacf.png align="center")
+
+### **Will create simple webpage using nginx on EC2:-**
+
+* `sudo apt-get update`
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705310628642/7e019060-e75c-47e1-add4-1dbc4fe46b6f.png align="center")
+
+* `sudo apt-get install nginx`
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705310659438/105d829f-a875-443b-a774-06cfabf72579.png align="center")
+
+* `cd /var/www/html`
+    
+* `ls`
+    
+* `sudo vim index.html`
+    
+
+`<h1> This is my server </h1>`
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705310695624/2662a296-d392-427a-8f08-369a0b1b9eab.png align="center")
+
+* Esc:wq Enter
+    
+* `sudo systemctl restart nginx`
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705310716380/81a11dcc-f5ca-4ad8-a9e3-622746036b16.png align="center")
+
+* Take public IP of EC2 anf paste it in Browser "**3.92.224.183:80**"
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705310729555/fc3ff86b-b096-43bf-9aba-ff6bf11ebe09.png align="center")
