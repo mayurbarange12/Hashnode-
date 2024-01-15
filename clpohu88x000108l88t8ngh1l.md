@@ -8,15 +8,15 @@ tags: docker, automation, devops, dockerfile, 90daysofdevops, shubhamlondhe, tra
 
 ---
 
-### **Let check some practical examples:-**
+### **Let check some practical examples**
 
 * **Create an EC2 Instance named as "boom-server"**
     
 * `sudo apt update`
     
-* `sudo apt install` [`docker.io`](http://docker.io)  **--&gt;** To install docker
+* `sudo apt install` [`docker.io`](http://docker.io)  **\--&gt;** To install docker
     
-* `systemctl status` [`docker.io`](http://docker.io)  **--&gt;** To check status of docker
+* `systemctl status` [`docker.io`](http://docker.io)  **\--&gt;** To check status of docker
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701544144338/b6512356-0862-448b-b59f-64b72ca05243.png align="center")
@@ -26,13 +26,13 @@ tags: docker, automation, devops, dockerfile, 90daysofdevops, shubhamlondhe, tra
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701544255147/8193b974-7640-416c-86c3-affbfc7801ea.png align="center")
 
-* `docker ps`  **--&gt;** Displaying the list of currently running containers along with their relevant information like names, IDs, status, and more.
+* `docker ps`  **\--&gt;** Displaying the list of currently running containers along with their relevant information like names, IDs, status, and more.
     
 * `sudo docker ps`
     
-* `sudo cat /etc/group`  **--&gt;** Displays the contents of the system's group file, listing all user groups and their associated group IDs.
+* `sudo cat /etc/group`  **\--&gt;** Displays the contents of the system's group file, listing all user groups and their associated group IDs.
     
-* `sudo usermod -aG docker ubuntu` **\--&gt;** -aG=add to a Group &lt;**GroupName**\&gt; &lt;**UserName**\&gt;  (To add "**ubuntu**"user into a "**Docker**" Group.)
+* `sudo usermod -aG docker ubuntu` **\--&gt;** -aG=add to a Group &lt;**GroupName**&gt; &lt;**UserName**&gt;  (To add "**ubuntu**"user into a "**Docker**" Group.)
     
 * `sudo cat /etc/group`
     
@@ -58,12 +58,12 @@ tags: docker, automation, devops, dockerfile, 90daysofdevops, shubhamlondhe, tra
     
 * `docker images` **\--&gt;** Lists all available Docker images stored locally on your machine.
     
-* `docker run mysql:latest` **--&gt;** Initiates a new container using the latest version of the MySQL image, allowing you to run a MySQL database instance.
+* `docker run mysql:latest` **\--&gt;** Initiates a new container using the latest version of the MySQL image, allowing you to run a MySQL database instance.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701545095541/4b73fc03-98c8-4ea6-b60d-a4ff54dcf234.png align="center")
 
-* `docker run -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest`  **--&gt;** Initializes a MySQL container with the specified root password "test@123" using the latest MySQL image.\[-e = environment variable\]
+* `docker run -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest`  **\--&gt;** Initializes a MySQL container with the specified root password "test@123" using the latest MySQL image.\[-e = environment variable\]
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701545199233/221d7de8-d343-45cc-b719-4761c707a7a9.png align="center")
@@ -72,7 +72,7 @@ tags: docker, automation, devops, dockerfile, 90daysofdevops, shubhamlondhe, tra
     
 * `docker kill 4e5864129099` --&gt; Container runs and after that, if it is not exit then kill he container.
     
-* `docker run -d -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest` \--&gt; To Run Container in background or detached mode.
+* `docker run -d -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest` --&gt; To Run Container in background or detached mode.
     
 * `docker ps`
     
@@ -100,7 +100,6 @@ tags: docker, automation, devops, dockerfile, 90daysofdevops, shubhamlondhe, tra
                     System.out.println("Hello Dosto");
             }
     }
-         
     ```
     
 * `javac` [`Hello.java`](http://Hello.java)
@@ -140,12 +139,12 @@ RUN javac Hello.java
 # App is now ready to run
 
 # Actually passing the run commands as arguments
-CMD ["java","Hello"]    
+CMD ["java","Hello"]
 ```
 
 **Note:- <mark>"Intermediate commands"</mark> will not be changed but <mark>Run Command "CMD"</mark> will be changed anytime if we want, that is why we use Arguments.**
 
-* `docker build -t java-app:latest .` **--&gt;** Command to build a Docker image tagged as "java-app" with the "latest" version, using the current directory (".") as the build context.
+* `docker build -t java-app:latest .` **\--&gt;** Command to build a Docker image tagged as "java-app" with the "latest" version, using the current directory (".") as the build context.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701547706895/e6bcbe25-7b42-441b-8937-d1578f123f86.png align="center")
