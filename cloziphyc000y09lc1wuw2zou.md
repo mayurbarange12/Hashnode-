@@ -16,9 +16,11 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700034339247/62e9263d-7762-43b9-a56c-d19c4d6ae50d.png align="center")
 
-**chmod :-** The chmod, or change mode, command allows an administrator to set or modify a file's permissions. Every UNIX/Linux file has an Owner user, Group and Other Users attached to it, and every file has permissions associated with it. The permissions are as follows: read, write, or execute.
+## **chmod**
 
-**How to change the Permission of File?**
+The chmod, or change mode, command allows an administrator to set or modify a file's permissions. Every UNIX/Linux file has an Owner user, Group and Other Users attached to it, and every file has permissions associated with it. The permissions are as follows: read, write, or execute.
+
+### **How to change the Permission of File?**
 
 * **chmod 777 &lt;FileName&gt;           \[eg:- chmod 744 Colors.txt\]**
     
@@ -27,7 +29,7 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
 
 **Note :-** When any file changes to executable(777) then it will turn into a "**Green**" color.
 
-**How to Create User in Linux?**
+### **How to Create User in Linux?**
 
 * **sudo useradd -m &lt;UserName&gt;** **\--&gt;** -m = make a folder
     
@@ -36,33 +38,33 @@ tags: linux, trainwithshubham, 90daysofdevopschallenge, tws, devopsengineer
 
 **Note :-** Whenever a user creates an adjacent group that user will be created automatically.
 
-**How to create Group in Linux?**
+### **How to create Group in Linux?**
 
 * **sudo groupadd &lt;GroupName&gt;**
     
 * **sudo cat /etc/group --&gt;** It will displays a list of all groups and their respective information.
     
 
-**How to add Single User in a Group?**
+### **How to add Single User in a Group?**
 
 * **sudo gpasswd -a &lt;UserName&gt; &lt;GroupName&gt; --&gt;** -a = add a user
     
 
-**How to check Ownership of File/Directory?**
+### **How to check Ownership of File/Directory?**
 
 * **ls -l \* --&gt;** Lists detailed information about all files and directories in the current directory.
     
 
-**How to change Group Ownership of any File/Directory?**
+### **How to change Group Ownership of any File/Directory?**
 
 * **sudo chgrp &lt;GroupName&gt; &lt;File/Directory Name&gt;**
     
     \[Changes the group ownership of a specified file or directory to the specified group name using superuser privileges.\]
     
 
-## **<mark>SSH/SCP</mark> :-**
+## **<mark>SSH/SCP</mark>**
 
-**SSH - (Secured Shell)**
+### **SSH - (Secured Shell)**
 
 SSH (Secure Shell) in Linux is a cryptographic network protocol that enables secure and encrypted communication between two devices over an insecure network, ensuring the confidentiality and integrity of data exchanged. It provides a secure avenue for remote access, allowing users to log into a remote machine securely, execute commands, transfer files, and tunnel other network services securely over an encrypted channel.
 
@@ -77,7 +79,7 @@ SSH (Secure Shell) in Linux is a cryptographic network protocol that enables sec
 * If you want log-out type the "**exit**" command.
     
 
-**<mark>SCP - (Secured Copy Protocol)</mark>**
+### **<mark>SCP - (Secured Copy Protocol)</mark>**
 
 SCP, or Secure Copy Protocol, is a command-line tool in Linux used for securely transferring files between a local and remote host or between two remote hosts over a Secure Shell (SSH) connection. It provides encryption and authentication, ensuring secure file transfers. SCP operates similarly to the cp command but adds encryption capabilities, enabling users to securely copy files and directories between systems. SCP is widely used in Linux for its simplicity and secure file transfer capabilities over SSH.
 
