@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-# **Kubernetes configuration manifest file:-**
+# **Kubernetes configuration manifest file**
 
 A Kubernetes configuration manifest file is a YAML or JSON file describing the desired state of various resources, like applications or services, in your Kubernetes cluster. It specifies details such as the type of resource, its properties (like name, image, ports), and the desired number of replicas. Once applied using "**kubectl apply**", Kubernetes works to make the actual state match the defined state in the file, ensuring your applications run as intended.
 
@@ -27,7 +27,7 @@ In Kubernetes, various kinds of manifest files are used to define different type
 * **PersistentVolume and PersistentVolumeClaim:** Manage storage and its allocation to pods.
     
 
-## **<mark>Namespace</mark>:-**
+## **<mark>Namespace</mark>**
 
 A Kubernetes namespace is a virtual cluster within a physical cluster, enabling resource isolation and organizing objects by providing a scope for names. It helps partition cluster resources, allowing multiple users or teams to share the same Kubernetes cluster securely.
 
@@ -38,7 +38,7 @@ In Kubernetes, there are primarily two types of namespaces:
 * **Custom namespaces**: Users can create their namespaces to organize and isolate resources for different projects, teams, or purposes within the cluster, improving security and resource management.
     
 
-# **<mark>Pods</mark>:-**
+# **<mark>Pods</mark>**
 
 A pod in Kubernetes is the smallest deployable unit that consists of one or more containers sharing storage, networking, and an IP address, representing a single instance of an application or a group of tightly coupled applications.
 
