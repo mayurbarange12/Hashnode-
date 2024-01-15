@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-# **ConfigMaps:-**
+# **ConfigMaps**
 
 A Kubernetes manifest file using ConfigMaps defines configurations separately from the pod specifications, allowing for easy management and access to configuration data within the cluster.
 
@@ -16,7 +16,7 @@ A ConfigMap is an API object used to **store non-confidential data** in **key-va
 
 A ConfigMap allows you to decouple environment-specific configuration from your container images so that your applications are easily portable.
 
-# **Secrets:-**
+# **Secrets**
 
 Secrets in Kubernetes securely store sensitive information, such as passwords or tokens, separate from pod specifications, enhancing security and access control within the cluster.
 
@@ -74,7 +74,7 @@ spec:
 * Esc:wq Enter
     
 
-### **<mark>--dry-run=client </mark> :-**
+### **<mark>--dry-run=client</mark>**
 
 The "--dry-run=client" flag in Kubernetes allows users to simulate resource creation/update without actually persisting changes, validating configurations locally.
 
@@ -132,7 +132,7 @@ data:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704639730672/d286e25e-705c-4d4f-a8ce-80a4148f1336.png align="center")
 
-* `kubectl get configMaps -n mysql` \--&gt; This command retrieves and lists ConfigMaps within the "mysql" namespace in Kubernetes.
+* `kubectl get configMaps -n mysql` --&gt; This command retrieves and lists ConfigMaps within the "mysql" namespace in Kubernetes.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704639756650/b19ce24b-8c0d-4a1b-aa92-0bae71054bf3.png align="center")
@@ -208,12 +208,12 @@ data:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704639991578/ea4da24f-37a1-497f-b4b8-b6eb5b1f0e32.png align="center")
 
-* `echo "dHJhaW53aXRoc2h1YmhhbQ==" | base64 -d`  **--&gt;** The command **decodes** the Base64 encoded string "**dHJhaW53aXRoc2h1YmhhbQ==**" back to its original form using the base64 utility with the `-d` flag.
+* `echo "dHJhaW53aXRoc2h1YmhhbQ==" | base64 -d`  **\--&gt;** The command **decodes** the Base64 encoded string "**dHJhaW53aXRoc2h1YmhhbQ==**" back to its original form using the base64 utility with the `-d` flag.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704641191035/e5e646bc-438b-4d65-9e04-ea321f065378.png align="center")
 
-### **<mark>Opaque</mark>:-**
+### **<mark>Opaque</mark>**
 
 "Opaque" in Kubernetes refers to a type of secret where data is stored as an arbitrary, undifferentiated blob without Kubernetes understanding its content or structure. \[**arbitrary user-defined data**\]
 
@@ -232,7 +232,7 @@ metadata:
     app: mysql
 type: Opaque
 data:
-  MYSQL_PASSWORD: dHJhaW53aXRoc2h1YmhhbQ== 
+  MYSQL_PASSWORD: dHJhaW53aXRoc2h1YmhhbQ==
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704640869011/a1147872-8d0e-4e9b-8f5e-d6a57bbfa80b.png align="center")
