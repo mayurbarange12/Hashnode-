@@ -8,7 +8,7 @@ tags: docker, devops, docker-images, 90daysofdevops, shubhamlondhe, trainwithshu
 
 ---
 
-## **<mark>Project:- node-todo-cicd</mark>**
+## **<mark>Project: node-todo-cicd</mark>**
 
 * `mkdir node-app`
     
