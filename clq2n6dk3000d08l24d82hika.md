@@ -12,7 +12,7 @@ tags: docker, devops, docker-images, 90daysofdevops, shubhamlondhe, trainwithshu
 
 * `mkdir node-app`
     
-* `git clone` [`https://github.com/LondheShubham153/node-todo-cicd.git`](https://github.com/LondheShubham153/node-todo-cicd.git)
+* `git clone https://github.com/LondheShubham153/node-todo-cicd.git`
     
 * `vim Dockerfile`
     
@@ -98,7 +98,7 @@ CMD ["node","app.js"]
 
 * `cd projects/`
     
-* `git clone` [`https://github.com/LondheShubham153/django-todo-cicd.git`](https://github.com/LondheShubham153/django-todo-cicd.git)
+* `git clone https://github.com/LondheShubham153/django-todo-cicd.git`
     
 * `cd django-todo-cicd/`
     
