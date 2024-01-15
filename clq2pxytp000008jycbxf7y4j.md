@@ -8,9 +8,9 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ---
 
-## **Two or more Containers how can they communicate**:-
+## **Two or more Containers how can they communicate**
 
-### **<mark>Project:- Two-Tier-Flask-App</mark>**
+### **<mark>Project: Two-Tier-Flask-App</mark>**
 
 * `cd projects/`
     
@@ -19,7 +19,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 * `cd two-tier-flask-app/`
     
 
-### **Will create a MYSQL Container:-**
+### **Will create a MYSQL Container**
 
 * `docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test@123 -e MYSQL_DATABASE=testdb -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin mysql:latest` --&gt; **\--&gt;** This command runs a MySQL Docker container(-d) from the latest image, setting up a MySQL database with specific environment variables (-e) for the root password, database name, user, password, and mapping the container's port 3306 to the host's port 3306 (-p).
     
@@ -41,7 +41,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702404993682/f02e443a-f8d1-4e92-8e35-6698618b989c.png align="center")
 
-### **Will create a Flask Container:-**
+### **Will create a Flask Container**
 
 * `docker build -t flask-app .`
     
@@ -60,11 +60,11 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702405348092/880f3f1b-6bc9-452c-996d-14c210394716.png align="center")
 
-### **Will create a Docker Bridge Network in between both the Containers:-**
+### **Will create a Docker Bridge Network in between both the Containers**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702405579953/080c6d1f-8e41-4eec-9f28-252ba5e7387b.png align="center")
 
-### **Firstly will set Name(mysql) to MYSQL Container:-**
+### **Firstly will set Name(mysql) to MYSQL Container**
 
 * `docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test@123 -e MYSQL_DATABASE=testdb -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin --name mysql mysql:latest`
     
@@ -73,7 +73,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702405953649/089665a8-be40-4d41-a411-24a85e8109f4.png align="center")
 
-### **Will set Host(mysql) and Name(flask-app) to Flask-app Container:-**
+### **Will set Host(mysql) and Name(flask-app) to Flask-app Container**
 
 * `docker run -d -p 5000:5000 -e MYSQL_HOST=mysql -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin -e MYSQL_DB=testdb --name flask-app flask-app:latest`
     
@@ -92,13 +92,13 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 * `docker kill caa0207d857a cabc406edabd`
     
 
-## **<mark>Docker Network</mark>:-**
+## **<mark>Docker Network</mark>**
 
 "Docker network" facilitates communication and connectivity between containers, enabling isolated and secure communication across different services and applications.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702406571563/29a736ed-ffb1-45b3-b2eb-7accdd9ba09c.png align="center")
 
-### **Types of Docker Network:-**
+### **Types of Docker Network**
 
 * **Bridge Network**
     
@@ -118,7 +118,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702406713514/aee4ec61-e1be-4e4b-84d5-aefb4cd8bdbe.png align="center")
 
-### **Will add mysql container to "two-tier-app-nw" Network:-**
+### **Will add mysql container to "two-tier-app-nw" Network**
 
 * `docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test@123 -e MYSQL_DATABASE=testdb -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin --name mysql --network two-tier-app-nw mysql:latest`
     
@@ -129,7 +129,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702407147999/0b5a3e57-5086-4cb4-9954-d465237f8fbe.png align="center")
 
-### **Will add flask-app container to "two-tier-app-nw" Network:-**
+### **Will add flask-app container to "two-tier-app-nw" Network**
 
 * `docker run -d -p 5000:5000 -e MYSQL_HOST=mysql -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin -e MYSQL_DB=testdb --name flask-app --network two-tier-app-nw flask-app:latest`
     
@@ -147,7 +147,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
     
 * `docker exec -it 827f25f7562b bash`
     
-* **bash-4.4#** `mysql -u root -p` 
+* **bash-4.4#** `mysql -u root -p`
     
 * **Enter password:** `test@123`
     
@@ -170,7 +170,7 @@ tags: docker, automation, devops, docker-network, 90daysofdevops, shubhamlondhe,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702407920112/e9721e60-7c76-424a-9ce0-409a7d85957e.png align="center")
 
-* **select \* from messages;  --&gt;** This is a query to get the data
+* `select * from messages;`  **--&gt;** This is a query to get the data
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702407953910/dd29a61d-ecc8-4dc0-bedf-61e26d05339b.png align="center")
