@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-# **Service:-**
+# **Service**
 
 A Kubernetes Service provides a consistent way to access and communicate with a group of pods, ensuring a stable endpoint for applications within the cluster.
 
@@ -72,7 +72,7 @@ spec:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704202483277/dda3c5f7-729b-4ca2-a347-de8be214d541.png align="center")
 
-### **<mark>Autohealing</mark>:-**
+### **<mark>Autohealing</mark>**
 
 Auto-healing in Kubernetes refers to the automatic detection and recovery from failures or issues within the cluster. Kubernetes continuously monitors the state of applications and infrastructure components. If it detects any failures, such as container crashes or node unavailability, it automatically takes actions to restore the desired state, like restarting containers or rescheduling pods onto healthy nodes. This process helps maintain the desired state of applications and ensures high availability without manual intervention.
 
@@ -98,7 +98,7 @@ Auto-healing in Kubernetes refers to the automatic detection and recovery from f
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704204618715/b407fd80-f242-4bb9-ad8c-00e91a9548ec.png align="center")
 
-### **<mark>Autoscaling</mark>:-**
+### **<mark>Autoscaling</mark>**
 
 Autoscaling in Kubernetes is the capability to automatically adjust the number of running pods within a cluster based on predefined metrics like CPU usage or custom metrics, ensuring efficient resource utilization and maintaining desired performance without manual intervention.
 
