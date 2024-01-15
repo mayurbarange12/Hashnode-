@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-## **HELM:-**
+## **HELM**
 
 Helm is like an **app store/package** installer for Kubernetes, making it easy to find, share, and install applications using pre-configured templates called charts, simplifying complex deployments on Kubernetes.
 
@@ -21,7 +21,7 @@ Helm is like an **app store/package** installer for Kubernetes, making it easy t
 * It is the K8s equivalent of yum or apt and includes all the necessary code and resources needed to deploy an application to a cluster.
     
 
-### **How to Install helm in Ubuntu:**\-
+### **How to Install helm in Ubuntu**
 
 **<mark>Master Node</mark>:-**
 
@@ -44,7 +44,6 @@ Helm is like an **app store/package** installer for Kubernetes, making it easy t
     
 * `cd helm-tut/`
     
-
 * `helm create node-app`
     
 * `cd node-app/`
@@ -89,7 +88,7 @@ Helm is like an **app store/package** installer for Kubernetes, making it easy t
 
 **<mark>Ingress</mark>:-**
 
- In Kubernetes, Ingress manages external access to services within the cluster, acting as a traffic controller by routing incoming HTTP and HTTPS requests to the appropriate services based on defined rules and configurations.
+In Kubernetes, Ingress manages external access to services within the cluster, acting as a traffic controller by routing incoming HTTP and HTTPS requests to the appropriate services based on defined rules and configurations.
 
 * `cd ..`
     
@@ -100,7 +99,7 @@ Helm is like an **app store/package** installer for Kubernetes, making it easy t
 
 ```bash
 autoscaling:
-    enabled: false   #--> Make it false.            
+    enabled: false   #--> Make it false.
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704649492299/38668995-65ac-4a5c-935e-1b455baa35d0.png align="center")
@@ -167,7 +166,7 @@ nodePort: {{ .Values.service.nodePort }}
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704650882477/0b31191a-48d5-4d07-ad35-823b58763aff.png align="center")
 
-### **Now We will change "Nginx Image" to my DockerHub Image "node-app-test-new":-**
+### **Now We will change "Nginx Image" to my DockerHub Image "node-app-test-new"**
 
 * `vim node-app/values.yaml` --&gt; Changes has been manually done.
     
@@ -187,7 +186,7 @@ tag: "latest"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704651075422/77c2b36b-b57d-4686-9c94-a3b706b8132a.png align="center")
 
-* `kubectl get pods`   \--&gt; Pod is Running but not Ready.
+* `kubectl get pods`   --&gt; Pod is Running but not Ready.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704651095868/2ac991ba-bef4-40c9-8d10-044ded2274d3.png align="center")
