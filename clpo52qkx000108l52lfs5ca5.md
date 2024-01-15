@@ -8,7 +8,7 @@ tags: github, git, devops, 90daysofdevops, shubhamlondhe, trainwithshubham, tws
 
 ---
 
-## **Branching Strategies**
+# **Branching Strategies**
 
 Branching in Git allows for divergent lines of development, enabling users to create separate paths to work on features or fixes without altering the main codebase. It facilitates parallel development and isolation of changes until they're ready to be merged back into the main branch.
 
