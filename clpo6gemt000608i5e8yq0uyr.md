@@ -8,6 +8,8 @@ tags: github, git, devops, 90daysofdevops, shubhamlondhe, trainwithshubham, tws
 
 ---
 
+# Cherry Pick
+
 **<mark>Cherry Pick</mark>:-** Cherry picking in Git refers to selecting and applying specific commits from one branch to another, allowing targeted integration of changes.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701200117738/d3ac3155-7f41-415f-acce-937bede5e349.png align="center")
@@ -18,6 +20,8 @@ tags: github, git, devops, 90daysofdevops, shubhamlondhe, trainwithshubham, tws
 
 `git cherry-pick --continue`
 
+# Git Stash
+
 **<mark>Git Stash</mark>:-** Allows you to temporarily store uncommitted changes, saving your work-in-progress without committing to the repository.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701200869910/02463543-f5b3-415a-9172-9db3968b1ab1.png align="center")
@@ -25,6 +29,8 @@ tags: github, git, devops, 90daysofdevops, shubhamlondhe, trainwithshubham, tws
 `git stash`
 
 `git stash pop`
+
+# Pull Request
 
 **<mark>Pull Request</mark>:-** A pull request (PR) is a way to propose changes to a codebase. It is a feature of version control systems like Git, and it is used to facilitate collaboration and code review.
 
