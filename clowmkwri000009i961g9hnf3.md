@@ -54,7 +54,7 @@ Linux is a robust and open-source operating system kernel that serves as the fou
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699900442851/81d47ddb-f223-4b52-b10b-73a3b0f66518.png align="center")
 
-## [**Directory Commands**](https://github.com/LondheShubham153/90DaysOfDevOps/blob/master/2023/day02/solution.md#directoy-commands)
+## **Directory Commands**
 
 * `pwd` --&gt; Print work directory. Gives the present working directory.
     
