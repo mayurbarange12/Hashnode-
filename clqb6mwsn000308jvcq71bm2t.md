@@ -8,11 +8,11 @@ tags: automation, devops, jenkins, cicd-cjy1vtdk2005kjjs17n8couc3, 90daysofdevop
 
 ---
 
-# **<mark>What is Jenkins</mark>:-**
+# **<mark>What is Jenkins</mark>**
 
 Jenkins is a popular open-source automation server for continuous integration (CI) and continuous delivery (CD). It assists developers in automating the software development, testing, and deployment processes. Jenkins is a powerful tool for increasing the quality and speed of software development. It offers a vast plugin ecosystem and supports various programming languages and tools, facilitating efficient software development practices.
 
-### **<mark>Key Concepts in Jenkins</mark>:-**
+### **<mark>Key Concepts in Jenkins</mark>**
 
 * **Jobs:** A job is a collection of steps that are executed sequentially. Jobs are used to automate tasks such as building, testing, and deploying software.
     
@@ -25,7 +25,7 @@ Jenkins is a popular open-source automation server for continuous integration (C
 * **Pipelines:** A pipeline is a series of connected jobs. Pipelines are used to automate complex workflows, such as building, testing, and deploying a software application.
     
 
-### **<mark>Features of Jenkins</mark>:-**
+### **<mark>Features of Jenkins</mark>**
 
 * **Easy to use:** Jenkins has a user-friendly interface that makes it easy to create and manage jobs.
     
@@ -38,7 +38,7 @@ Jenkins is a popular open-source automation server for continuous integration (C
 * **Community-supported:** Jenkins has a large and active community of users and developers. There are many resources available to help you learn how to use Jenkins.
     
 
-### **<mark>Benefits of Jenkins</mark>:-**
+### **<mark>Benefits of Jenkins</mark>**
 
 ⚙️ **Automation Powerhouse:** Jenkins automates the entire software development lifecycle, from building and testing to deployment, saving time and reducing manual errors.
 
@@ -58,7 +58,7 @@ Jenkins is a popular open-source automation server for continuous integration (C
 
 🔧 **Troubleshooting & Debugging:** Provides robust logging and debugging features, aiding in identifying and resolving issues within the CI/CD pipeline effectively.
 
-### **<mark>How to Install and Configure Jenkins(Practical example)</mark>:-**
+### **<mark>How to Install and Configure Jenkins(Practical example)</mark>**
 
 * Create an EC2 Instance in **Ohio** region named as "**jenkins-server**" - Ubuntu Image - Launch instance.
     
@@ -93,7 +93,7 @@ sudo apt-get install jenkins
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702919503553/24c2e580-27ea-429b-9b74-8d6939b9db91.png align="center")
 
-* EC2-instance port **8080** should be allowed:- **Security** -&gt; **Inbound Rule** -&gt; Edit Inbound Rule -&gt; Port:**8080** and Source:**Anywhere-IPV4** \-&gt; save rules.
+* EC2-instance port **8080** should be allowed:- **Security** -&gt; **Inbound Rule** -&gt; Edit Inbound Rule -&gt; Port:**8080** and Source:**Anywhere-IPV4** -&gt; save rules.
     
 * Search on Browser "EC2 instance Public IP-**18.116.27.188:8080**" It will be Run.
     
