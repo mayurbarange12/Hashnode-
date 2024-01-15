@@ -8,7 +8,7 @@ tags: linux, devops, shell, 90daysofdevops, trainwithshubham
 
 ---
 
-**GREP :- (Global Regular Expression Print)**
+# **GREP : (Global Regular Expression Print)**
 
 The grep filter searches a file for a particular pattern of characters and displays all lines that contain that pattern.
 
@@ -47,7 +47,7 @@ How to use this "**grep**" command in a real-based scenario?
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700203885842/46fc1d79-7fdd-4bc9-afba-44909915fe9a.png align="center")
 
-**AWK :- (Aho, Weinberger and Kernighan)**
+# **AWK : (Aho, Weinberger and Kernighan)**
 
 AWK is a powerful command-line tool in Linux used for processing and manipulating text and data. It reads text line by line, allowing you to search, extract, modify, and print specific patterns or fields within files.
 
@@ -66,7 +66,7 @@ AWK is a powerful command-line tool in Linux used for processing and manipulatin
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700204825024/f83fcf20-1996-4d06-ad57-dae4f8de4dcf.png align="center")
 
-**Head :-**
+# **Head**
 
 It displays the first few lines (by default, the first 10 lines) of a text file on the terminal.
 
@@ -80,7 +80,7 @@ It displays the first few lines (by default, the first 10 lines) of a text file 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700205197552/c5b598db-a318-4a12-979f-2014d935fa1f.png align="center")
 
-**Tail :-**
+# **Tail**
 
 StartFragmentIt displays the last few lines (by default, the last 10 lines) of a text file on the terminal.EndFragment
 
@@ -94,7 +94,7 @@ StartFragmentIt displays the last few lines (by default, the last 10 lines) of a
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700205698892/a4f64616-4b82-4cee-87b4-becd120e17dc.png align="center")
 
-**Alternate way to perform tasks through AWK command :-**
+## **Alternate way to perform tasks through AWK command**
 
 * **awk /TRACE/ &lt;FileName.log&gt;  --&gt;** To search "TRACE" keyword from file.  (Grep alternate way to search keyword)
     
@@ -111,7 +111,7 @@ StartFragmentIt displays the last few lines (by default, the last 10 lines) of a
 * **awk '$2&gt;"08:52:00" && $2&lt;"08:54:00" {print $1,$2}' &lt;FileName.log&gt;  --&gt;** To print Time from "08:52:00" to "08:00:54" of column 1 and 2 of the file.
     
 
-**Find:-**
+# **Find**
 
 Find command used to search and locate the list of files and directories based on conditions you specify for files that match the arguments.
 
@@ -126,7 +126,7 @@ Find can be used in a variety of conditions like you can find files by permissio
 * **find ~/ -user ubuntu --&gt;** Find in Home directory anything that has been created by the **user** - **ubuntu.**
     
 
-**Scenarios of Find command:-**
+## **Scenarios of Find command**
 
 * **cp application.log /home/ubuntu  --&gt;** copy application.log file from **source**: /home/ubuntu/logs  to **destination:** /home/ubuntu
     
@@ -145,7 +145,7 @@ Find can be used in a variety of conditions like you can find files by permissio
     /home/ubuntu/application.log
     
 
-**Shell Scripting :-**
+# **Shell Scripting**
 
 In the simplest terms, a shell script is a file containing a series of commands. The shell reads this file and carries out the commands as though they have been entered directly on the command line. Normally the shell scripts has the file extension "**.sh**".
 
@@ -156,14 +156,14 @@ In the simplest terms, a shell script is a file containing a series of commands.
 * **gedit** is the **GUI** text editor.
     
 
-**There are two types to execute shell script :**
+### **There are two types to execute shell script :**
 
 * <mark>./&lt;FileName.sh&gt;</mark>
     
 * <mark>bash &lt;FileName.sh&gt;</mark>
     
 
-**How to run a shell script(echo command)?**
+### **How to run a shell script(echo command)?**
 
 * `mkdir myscript`
     
@@ -189,7 +189,7 @@ echo "mayur: Hello Guys!!"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700207704948/c01fc8e7-b248-48a7-ba43-766eb2d27934.png align="center")
 
-**How to display the date** **through shell script?**
+### **How to display the date** **through shell script?**
 
 * `vim script-1.sh`
     
@@ -203,7 +203,7 @@ date
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700208269828/331b8649-84e1-4b7a-9d0f-397c5aae111d.png align="center")
 
-**How to create a Folder through Shell Script?**
+### **How to create a Folder through Shell Script?**
 
 * `vim MakeDirectory.sh`
     
@@ -221,7 +221,7 @@ echo "folder created, please check..."
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700208832661/86b922a4-8acf-4987-825e-de6654157e6c.png align="center")
 
-**How to use Variable in Shell Script?**
+### **How to use Variable in Shell Script?**
 
 * `vim variable.sh`
     
@@ -237,7 +237,7 @@ echo "my name is $name"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700209291363/e402a054-2acc-4e3c-866b-976d156f43d3.png align="center")
 
-**How to use Arguments in Shell Script?**
+### **How to use Arguments in Shell Script?**
 
 * `vim ShowArguments.sh`
     
@@ -251,7 +251,7 @@ echo "all arguments $@"   --> @ = all arguments will display.(test trainwithshub
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700209954459/ee820e8f-919d-4c57-ad6a-1397f534b7c2.png align="center")
 
-**How to install any tool(docker/nginx) through shell script** :-
+### **How to install any tool(docker/nginx) through shell script** :-
 
 * `vim installer.sh`
     
@@ -264,12 +264,12 @@ sudo apt update -y  --> (-y = yes)
 sudo apt-get install $1 -y  -->  "$1" variable will take input access.
 ```
 
-* Installing Docker Tool:-
+* Installing **Docker** Tool:-
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700210337415/b2728418-9f66-4bd9-94aa-e62a00a090e8.png align="center")
 
-* Installing Nginx Tool:-
+* Installing **Nginx** Tool:-
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700210436602/0db2f09a-cb30-454d-92e7-82f7625ed1d4.png align="center")
