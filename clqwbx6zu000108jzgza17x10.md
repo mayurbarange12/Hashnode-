@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-# **<mark>Deployment</mark>:-**
+# **<mark>Deployment</mark>**
 
 Deployment means Desired State provides declarative updates for Pods and ReplicaSets.
 
