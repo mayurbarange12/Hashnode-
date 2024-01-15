@@ -8,7 +8,7 @@ tags: devops, jenkins, cicd-cjy1vtdk2005kjjs17n8couc3, 90daysofdevops, shubhamlo
 
 ---
 
-## **Project** - **django-todo-cicd**
+## **<mark>Project</mark>** - **<mark>django-todo-cicd</mark>**
 
 * **Click on "Create a job" or "New Item"**
     
@@ -69,7 +69,7 @@ docker run -d -p 8000:8000 django-app:latest
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702971552630/b79db4a1-743b-4790-9cfb-2f4cc0e327b8.png align="center")
 
-* **sudo apt install** [**docker.io**](http://docker.io)  **--&gt;** Docker installed now.
+* `sudo apt install docker.io`  **\--&gt;** Docker installed now.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702971722598/3904b3bc-d16c-4542-9649-5514d121be33.png align="center")
@@ -79,9 +79,9 @@ docker run -d -p 8000:8000 django-app:latest
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702971830903/324bc239-0969-40cc-a55e-297c0bea4789.png align="center")
 
-* **sudo usermod -aG docker jenkins** \--&gt; Jenkins user added to Docker Group.
+* `sudo usermod -aG docker jenkins` --&gt; Jenkins user added to Docker Group.
     
-* **sudo reboot**
+* `sudo reboot`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702971924424/fc74b0d0-ce5e-40ef-8934-692341210c65.png align="center")
@@ -96,7 +96,7 @@ docker run -d -p 8000:8000 django-app:latest
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702971987718/30a55504-c245-4716-bc8e-9ed1157eca5b.png align="center")
 
-* EC2 Instance **Security port** should **allowed:-** **Security** -&gt; **Inbound Rule** -&gt; Edit Inbound Rule -&gt; Port:**8000** and Source:**Anywhere-IPV4** \-&gt; save rules.
+* EC2 Instance **Security port** should **allowed:-** **Security** -&gt; **Inbound Rule** -&gt; Edit Inbound Rule -&gt; Port:**8000** and Source:**Anywhere-IPV4** -&gt; save rules.
     
 * Search on Browser "EC2 instance Public IP-**18.116.27.188:8000**" It will be Run.
     
@@ -113,7 +113,7 @@ docker run -d -p 8000:8000 django-app:latest
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702972319030/16a8c3e3-da8d-4209-a607-90235af4af9a.png align="center")
 
-* **sudo apt install docker-compose** --&gt; **Solution** for this "**port is already allocated**" error.
+* `sudo apt install docker-compose` --&gt; **Solution** for this "**port is already allocated**" error.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702972383111/020e66ac-1330-4b75-b93d-4acff01286bf.png align="center")
@@ -141,9 +141,9 @@ docker-compose down && docker-compose up -d
 
 * **So we need to kill that old container.**
     
-* **sudo docker ps**
+* `sudo docker ps`
     
-* **sudo docker kill 31b0e9a3d7c8**
+* `sudo docker kill 31b0e9a3d7c8`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702972689842/b34b44a3-64ac-48d7-ba56-1efb8aaae2e3.png align="center")
