@@ -23,9 +23,9 @@ Jenkins supports several types of build jobs, such as freestyle projects, pipeli
 
 ## **What is Freestyle Project ?? 🤔**
 
-A freestyle project in Jenkins is a type of project that allows you to build, test, and deploy software using a variety of different options and configurations. Here are a few tasks that you could complete when working with a freestyle project in Jenkins**:**
+A freestyle project in Jenkins is a type of project that allows you to build, test, and deploy software using a variety of different options and configurations. Here are a few tasks that you could complete when working with a freestyle project in Jenkins.
 
-## **Task to Create a Freestyle Project to print Hello Dosto and Date:-**
+## Task to Create a Freestyle Project to print **"Hello Dosto"** and **"Date"**
 
 * **Click on "Create a job" or "New Item"**
     
