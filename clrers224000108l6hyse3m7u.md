@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswi
 
 ---
 
-## **<mark>How to create template of EC2 in AWS?</mark>**
+## **<mark>How to create template of EC2 in AWS</mark>**
 
 Firstly go to Instances --&gt; Select Running EC2 instance "**Test-Machine**" --&gt; Click on **Actions** --&gt; Select **Image and Templates** --&gt; Click on **Create template from instance** --&gt; Mention Launch template name --&gt; **zero-to-hero-template** --&gt; template version description --&gt; **v1** --&gt; Finally click on Create launch template.
 
