@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ---
 
-## **<mark>Minikube Installation Guide for Ubuntu</mark>:-**
+## **<mark>Minikube Installation Guide for Ubuntu</mark>**
 
 **<mark>Minikube</mark>:-** Minikube is a tool that allows you to run a single-node Kubernetes cluster locally for development and testing purposes.
 
@@ -104,7 +104,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703719155438/2eea45b7-3eaf-4fc0-8341-50fe634e838a.png align="center")
 
-## **<mark>Kubeadm Installation Guide for Ubuntu</mark>:-**
+## **<mark>Kubeadm Installation Guide for Ubuntu</mark>**
 
 **<mark>Kubeadm</mark>:-** It is a command-line tool used to bootstrap, set up, and manage Kubernetes clusters.
 
@@ -283,7 +283,7 @@ tags: trainwithshubham-tws-90daysofdevops-90daysofdevopschallenge-devops-devopsc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703720719128/cec44937-435b-4da1-9887-b0ebe01ff9b1.png align="center")
 
-### **<mark>Pod</mark>:-**
+### **<mark>Pod</mark>**
 
 A pod in Kubernetes is the smallest deployable unit that consists of one or more containers sharing storage, networking, and an IP address, representing a single instance of an application or a group of tightly coupled applications.
 
