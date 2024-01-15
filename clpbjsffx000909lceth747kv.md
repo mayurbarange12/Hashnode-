@@ -54,24 +54,25 @@ A distributed version control system (DVCS) allows developers to "clone" an enti
 
 Overall, the decentralized nature of a DVCS allows for greater collaboration, flexibility, and security, making it a popular choice for many teams.
 
-## Exercises:
+## Exercises
 
 1\. Create a new repository on GitHub and clone it to your local machine:
 
-`git clone <Repository-Url>`
+* `git clone <Repository-Url>`
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700761955000/d3532107-6417-4eab-8abb-dd74cc14498e.png align="center")
 
 Create a new folder in your local machine and right-click into that folder, open git bash and type the below command:
 
-* `git clone` [`https://github.com/mayurbarange12/demo.git`](https://github.com/mayurbarange12/demo.git)
+* `git clone https://github.com/mayurbarange12/demo.git`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700762473633/796fbb90-cfa1-40ba-b7b8-e9e4e21033e8.png align="center")
 
 2\. Make some changes to a file in the repository and commit them to the repository using Git:
 
-`git add <Filename>` `.(dot) = All`
+`git add <Filename> .` --&gt; **.**(dot) = All
 
 `git commit -m "Your Message"`
 
@@ -83,7 +84,7 @@ Create a new folder in your local machine and right-click into that folder, open
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700763386002/06f298a7-abb6-4ef5-aef6-c4b16ca3eab7.png align="center")
 
-## Today I learned these commands in Git:
+## Today I learned these commands in Git
 
 * `git init` --&gt; Initializes a new Git repository in the current directory, setting up the necessary files and structure for version control.
     
