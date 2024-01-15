@@ -8,31 +8,39 @@ tags: github, git, devops, 90daysofdevops, shubhamlondhe, trainwithshubham, tws
 
 ---
 
-## **Branching Strategies:-**
+## **Branching Strategies**
 
 Branching in Git allows for divergent lines of development, enabling users to create separate paths to work on features or fixes without altering the main codebase. It facilitates parallel development and isolation of changes until they're ready to be merged back into the main branch.
 
-`git branch`**\--&gt;**  To list, create, or manipulate branches within a Git repository.
+* `git branch`**\--&gt;**  To list, create, or manipulate branches within a Git repository.
+    
+* `git checkout -b "BranchName"`**\--&gt;** Creates and switches to a new branch named 'BranchName' in Git.
+    
+* `git checkout <BranchName>`   **OR**   `git switch <BranchName>` --&gt; Switches to a different branch in Git.
+    
+* `git log --oneline` --&gt; This command displays a concise history of commits in a single line format, showing abbreviated commit IDs and commit messages.
+    
 
-`git checkout -b "BranchName"`**\--&gt;** Creates and switches to a new branch named 'BranchName' in Git.
+## **<mark>Hotfix</mark>**
 
-`git checkout <BranchName>`   **OR**   `git switch <BranchName>` --&gt; Switches to a different branch in Git.
-
-`git log --oneline` --&gt; This command displays a concise history of commits in a single line format, showing abbreviated commit IDs and commit messages.
-
-**<mark>Hotfix</mark>**:- Hotfix in Git refers to an expedited corrective patch applied directly to a production branch to swiftly resolve critical issues or bugs.
+Hotfix in Git refers to an expedited corrective patch applied directly to a production branch to swiftly resolve critical issues or bugs.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701184056417/893a5d64-50c5-43f7-b1ad-4253bf780bac.png align="center")
 
 **Jira:-** Jira is a powerful project management tool designed to streamline team collaboration, track tasks, and manage workflows efficiently.
 
-**<mark>Git Merge</mark>**:- Integrates changes from different branches into one, combining their commit histories.
+## **<mark>Git Merge</mark>**
 
-`git merge <BranchName>`
+Integrates changes from different branches into one, combining their commit histories.
+
+* `git merge <BranchName>`
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701183725210/9fdddfe3-a40b-441e-8273-1179644af48b.png align="center")
 
-**<mark>Git Push</mark>:**\- "Git push" is a command that sends committed changes from your local Git repository to the remote repository, enabling synchronization and updating of the shared codebase.
+## **<mark>Git Push</mark>**
+
+"Git push" is a command that sends committed changes from your local Git repository to the remote repository, enabling synchronization and updating of the shared codebase.
 
 **How to push a <mark>repo</mark> from the Local Repository to the GitHub Remote Repository?**
 
@@ -82,7 +90,9 @@ git remote set-url origin https://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@githu
 * **Git Fetch:** "Git fetch" downloads changes from a remote repository to your local branch, allowing you to review them before merging.
     
 
-**<mark>Git Pull</mark>**: 🚀 Fetches and merges changes from a remote repository into the local branch, ensuring the latest updates are applied to the local repository.
+## **<mark>Git Pull</mark>**
+
+🚀 Fetches and merges changes from a remote repository into the local branch, ensuring the latest updates are applied to the local repository.
 
 `git pull origin master`
 
@@ -107,23 +117,31 @@ Create a new Branch named as "staging" branch inside repository "devops-batch-5"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701197779172/e55d573d-6fe6-47d9-a317-514889793196.png align="center")
 
-**<mark>Git Rebase</mark>:-** Rearranges commit history by incorporating changes from one branch onto another, creating a linear sequence of commits.
+## **<mark>Git Rebase</mark>**
+
+Rearranges commit history by incorporating changes from one branch onto another, creating a linear sequence of commits.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701198034091/b622a36d-77ff-4e16-9735-fddfaa44f61b.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701199504231/649cd1df-c170-4e74-bcc5-8538507b97a7.png align="center")
 
-`git rebase <BranchName>`
+* `git rebase <BranchName>`
+    
 
-**<mark>Git Revert</mark>:-** Creates a new commit that undoes the changes made by a specific commit, effectively reverting those changes.
+## **<mark>Git Revert</mark>**
+
+Creates a new commit that undoes the changes made by a specific commit, effectively reverting those changes.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701199032881/bec4bb0d-b44b-4b62-bd4d-0d7f190dd2ed.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701199199528/69f9126b-3acd-4bdc-98c3-8ace4e4a2576.png align="center")
 
-`git revert <CommitID>`
+* `git revert <CommitID>`
+    
 
-**<mark>Git Reset</mark>:-** Unstages files or moves the HEAD to a specific commit, altering the repository's state.
+## **<mark>Git Reset</mark>**
+
+Unstages files or moves the HEAD to a specific commit, altering the repository's state.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701199628207/3a32e5ba-9299-4651-aa3d-6891b52b1d03.png align="center")
 
