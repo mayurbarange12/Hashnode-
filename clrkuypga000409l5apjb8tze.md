@@ -1,8 +1,8 @@
 ---
-title: "Day 33 - AWS S3-Static Website Hosting"
+title: "Day 33 - AWS S3:Static Website Hosting"
 datePublished: Fri Jan 19 2024 16:31:40 GMT+0000 (Coordinated Universal Time)
 cuid: clrkuypga000409l5apjb8tze
-slug: day-33-aws-s3-static-website-hosting
+slug: day-33-aws-s3static-website-hosting
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705675548681/c611ff55-f89f-4f59-a0fa-8a94aaf312c8.webp
 tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswithtws-7daysofaws-ec2-launchtemplates-userdatascripts-autoscaling-elasticloadbalancer-webapplicationfirewall-elb-waf-s3
 
