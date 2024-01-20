@@ -94,9 +94,9 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705728419151/95874d8c-236a-4eee-a19f-948a44cd2a2d.png align="center")
 
-* Key -  **usertype** 
+* Key -  **usertype**
     
-* Value **- devops**
+* Value **\- devops**
     
 * Click on **Create user**
     
@@ -107,7 +107,7 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 
 * Click on **Download .csv file**
     
-* Click on **Email sign-in instructions**  \--&gt; If we want to send mail to anyone who wants to login in IAM user account so that is basically instructions to login in IAM user.
+* Click on **Email sign-in instructions**  --&gt; If we want to send mail to anyone who wants to login in IAM user account so that is basically instructions to login in IAM user.
     
 * Copy **Console sign-in URL -** [**https://iamdevopsmayur.signin.aws.amazon.com/console**](https://iamdevopsmayur.signin.aws.amazon.com/console) and paste it in other browser.
     
@@ -137,7 +137,7 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
     
 * If we search inside IAM user(Rohit) **EC2  --&gt;** IAM user(Rohit) has access to **EC2** service.
     
-* If we search inside IAM user(Rohit) **RDS --&gt;** Click on **Create database**  \--&gt; IAM user(Rohit) has no access to **RDS** service.
+* If we search inside IAM user(Rohit) **RDS --&gt;** Click on **Create database**  --&gt; IAM user(Rohit) has no access to **RDS** service.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705728797218/4aef8c5f-2d7e-4e6f-82ab-59c064e4cc4e.png align="center")
@@ -151,7 +151,7 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 
 * Click on **Add provider**
     
-* Provider type **- SAML** and **OpenID Connect**
+* Provider type **\- SAML** and **OpenID Connect**
     
 * Mention **Provider name** In **SAML  --&gt; Add provider**
     
@@ -177,7 +177,7 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 
 * Select **AWS service**
     
-* Service or use case --&gt; **EC2**   
+* Service or use case --&gt; **EC2**
     
 * Click on **Next**
     
@@ -196,7 +196,7 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705730485519/08fa9ae5-b578-4125-ba2d-ef33341c85f4.png align="center")
 
-* Role name **- ec2-rds-role**
+* Role name **\- ec2-rds-role**
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705730517909/c90d6c3c-77b2-4ba4-a1a1-0328a9e693e6.png align="center")
@@ -277,3 +277,5 @@ IAM Identity Providers in AWS facilitate **external authentication** systems int
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705731248163/4ee28788-4d7f-4ef5-b10e-d0c232fac364.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705731252564/8aeea0b0-31df-4e05-b661-98fc9ab07143.png align="center")
+
+* Now IAM Users can log in to the AWS Console.
