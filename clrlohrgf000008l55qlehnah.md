@@ -4,7 +4,7 @@ datePublished: Sat Jan 20 2024 06:18:18 GMT+0000 (Coordinated Universal Time)
 cuid: clrlohrgf000008l55qlehnah
 slug: day-34-aws-iam-users-groups-users-roles-policies-identity-providers-and-mfa
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705727622541/64befece-3966-4a99-9f93-3f2de126f11d.png
-tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswithtws-7daysofaws-ec2-launchtemplates-userdatascripts-autoscaling-elasticloadbalancer-webapplicationfirewall-elb-waf-s3-iam-mfa-usergroups-users-roles-policies-identityproviders
+tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswithtws-7daysofaws-iam-mfa-usergroups-users-roles-policies-identityproviders
 
 ---
 
