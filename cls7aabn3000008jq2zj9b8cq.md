@@ -8,7 +8,7 @@ tags: trainwithshubham-tws-devops-devopscommunity-shubhamlondhe-automation-awswi
 
 ---
 
-# RDS:
+# RDS
 
 RDS stands for **Relational Database Service**, a fully managed database service by AWS that automates database administration tasks, offering support for various relational database engines like MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
 
@@ -21,9 +21,9 @@ RDS stands for **Relational Database Service**, a fully managed database service
 
 **DB Instances:** A DB instance in AWS refers to a running database environment provisioned by Amazon RDS, supporting various relational database engines.
 
- **DB Clusters:** A DB Cluster in AWS is a managed database cluster by Amazon RDS, offering high availability and scalability with a primary DB instance and multiple replicas.
+**DB Clusters:** A DB Cluster in AWS is a managed database cluster by Amazon RDS, offering high availability and scalability with a primary DB instance and multiple replicas.
 
- **Snapshots:** Snapshots in Amazon RDS are point-in-time copies of a database instance's data, crucial for data recovery and creating new instances with specific configurations.
+**Snapshots:** Snapshots in Amazon RDS are point-in-time copies of a database instance's data, crucial for data recovery and creating new instances with specific configurations.
 
 * Click on **Create Database**
     
@@ -99,7 +99,7 @@ RDS stands for **Relational Database Service**, a fully managed database service
     
 * Instance type: **t2.micro**
     
-* Key pair **--&gt; Create key pair --&gt; Key pair name: RDS-key --&gt;** Click on **Create key pair**
+* Key pair **\--&gt; Create key pair --&gt; Key pair name: RDS-key --&gt;** Click on **Create key pair**
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706975645736/f4be537c-e877-4a40-8cf2-04fb98737b05.png align="center")
@@ -139,12 +139,11 @@ RDS stands for **Relational Database Service**, a fully managed database service
 
 **RDS --&gt; Databases --&gt; database-1**
 
-* `mysql -u admin -h database-1.cuqxi1ttp3jg.us-east-1.rds.amazonaws.com -P 3306 -p`  
+* `mysql -u admin -h database-1.cuqxi1ttp3jg.us-east-1.rds.amazonaws.com -P 3306 -p`
     
     \--&gt;  -h = host  | -P = Port  | -p = password
     
-
-* `Enter password: admin123` 
+* `Enter password: admin123`
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706976283322/573a7f0e-30be-4a52-9f99-e145eb1ab312.png align="center")
